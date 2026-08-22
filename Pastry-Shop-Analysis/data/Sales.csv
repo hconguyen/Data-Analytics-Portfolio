@@ -1,0 +1,1001 @@
+OrderID,OrderDate,EmployeeID,ProductID,OrderQuantity,OrderType,ClientName,EventType
+ORD-0001,2025-04-05,EMP-0008,PRD-0001,40,Livraison,Yves Richard,Corporate
+ORD-0002,2025-02-13,EMP-0025,PRD-0001,5,À emporter,Xavier Tessier,Anniversaire
+ORD-0003,2025-03-11,EMP-0032,PRD-0003,3,À emporter,Étienne Durand,Quotidien
+ORD-0004,2025-01-22,EMP-0035,PRD-0006,5,Livraison,Benjamin-Gabriel Bergeron,Quotidien
+ORD-0005,2025-10-20,EMP-0029,PRD-0002,2,À emporter,Charles Nguyen,Atelier
+ORD-0006,2025-01-01,EMP-0035,PRD-0003,4,Livraison,Josette Sirois,Quotidien
+ORD-0007,2025-03-06,EMP-0003,PRD-0003,4,À emporter,Marcel-Victor Forget,Quotidien
+ORD-0008,2025-09-17,EMP-0008,PRD-0004,1,À emporter,Élisabeth Lessard,Quotidien
+ORD-0009,2025-09-12,EMP-0008,PRD-0003,5,Livraison,Manon Charest,Quotidien
+ORD-0010,2025-06-12,EMP-0008,PRD-0003,43,Sur place,David St-Jean,Corporate
+ORD-0011,2025-11-27,EMP-0035,PRD-0003,6,Sur place,Catherine Trépanier,Quotidien
+ORD-0012,2025-07-04,EMP-0034,PRD-0003,37,À emporter,Marianne-Anouk Fournier,Corporate
+ORD-0013,2025-02-16,EMP-0032,PRD-0002,33,Sur place,Étienne Gélinas,Corporate
+ORD-0014,2025-01-23,EMP-0008,PRD-0005,1,Sur place,Rémy Dupont,Quotidien
+ORD-0015,2025-12-09,EMP-0008,PRD-0001,1,Livraison,Émilie Pépin,Quotidien
+ORD-0016,2025-08-19,EMP-0003,PRD-0002,6,Sur place,Georges-Olivier Girard,Quotidien
+ORD-0017,2025-01-10,EMP-0003,PRD-0005,1,Sur place,Élisabeth Létourneau-Beauregard,Quotidien
+ORD-0018,2025-02-02,EMP-0035,PRD-0001,1,Sur place,Laurie St-Laurent,Quotidien
+ORD-0019,2025-06-11,EMP-0007,PRD-0003,37,Livraison,Marianne Larivière,Corporate
+ORD-0020,2025-02-02,EMP-0032,PRD-0001,3,Sur place,Marcelle Lemieux,Quotidien
+ORD-0021,2025-03-04,EMP-0034,PRD-0004,3,Livraison,Jérôme Desbiens,Quotidien
+ORD-0022,2025-04-21,EMP-0008,PRD-0006,8,À emporter,Thomas-Joseph Lafontaine,Atelier
+ORD-0023,2025-04-03,EMP-0007,PRD-0006,6,Livraison,Charlotte Bertrand,Anniversaire
+ORD-0024,2025-09-26,EMP-0034,PRD-0005,29,Sur place,Paul Archambault,Corporate
+ORD-0025,2025-09-29,EMP-0034,PRD-0006,42,Sur place,Victor Lemieux,Corporate
+ORD-0026,2025-08-11,EMP-0025,PRD-0001,27,Livraison,Océane Lemieux,Corporate
+ORD-0027,2025-01-13,EMP-0035,PRD-0001,6,Sur place,Julie Ouellet,Quotidien
+ORD-0028,2025-07-17,EMP-0035,PRD-0003,21,Sur place,Camille Guay,Corporate
+ORD-0029,2025-05-22,EMP-0032,PRD-0002,1,À emporter,Gérard Giroux,Quotidien
+ORD-0030,2025-07-13,EMP-0029,PRD-0001,3,Sur place,Luc Desbiens,Atelier
+ORD-0031,2025-02-22,EMP-0032,PRD-0002,2,Sur place,Jeanne Vallée,Quotidien
+ORD-0032,2025-03-18,EMP-0025,PRD-0004,2,Sur place,Marcel Blouin,Atelier
+ORD-0033,2025-03-02,EMP-0032,PRD-0003,48,Sur place,Hugues Gravel,Corporate
+ORD-0034,2025-01-09,EMP-0032,PRD-0006,4,Livraison,Élodie Lemire-Boucher,Quotidien
+ORD-0035,2025-12-11,EMP-0032,PRD-0006,5,Sur place,Kevin Dallaire,Quotidien
+ORD-0036,2025-04-06,EMP-0032,PRD-0005,2,Sur place,Jean Beaudoin,Quotidien
+ORD-0037,2025-05-02,EMP-0008,PRD-0004,4,Sur place,Émile Champagne-Ouellet,Quotidien
+ORD-0038,2025-04-06,EMP-0007,PRD-0004,5,Sur place,Lorraine Renaud,Quotidien
+ORD-0039,2025-11-13,EMP-0032,PRD-0001,30,Sur place,Édouard-Bernard Martineau,Corporate
+ORD-0040,2025-02-13,EMP-0008,PRD-0004,5,Sur place,Claude Mathieu,Quotidien
+ORD-0041,2025-05-12,EMP-0025,PRD-0006,4,À emporter,Luc-Nicolas Guillemette,Quotidien
+ORD-0042,2025-06-21,EMP-0008,PRD-0004,3,À emporter,Isabelle Poirier,Quotidien
+ORD-0043,2025-12-02,EMP-0007,PRD-0006,6,Sur place,Bernard Cyr,Quotidien
+ORD-0044,2025-10-05,EMP-0029,PRD-0003,2,Sur place,Roger Gaudreault,Quotidien
+ORD-0045,2025-01-31,EMP-0008,PRD-0006,47,Livraison,Victor Arsenault,Corporate
+ORD-0046,2025-02-01,EMP-0025,PRD-0005,37,Livraison,Gilbert-Martin Vachon,Corporate
+ORD-0047,2025-09-25,EMP-0035,PRD-0005,1,Sur place,Marie Brunet,Quotidien
+ORD-0048,2025-07-13,EMP-0025,PRD-0005,6,Sur place,Astrid St-Jean,Quotidien
+ORD-0049,2025-05-13,EMP-0003,PRD-0003,4,Sur place,Josette-Martine Cormier,Quotidien
+ORD-0050,2025-01-05,EMP-0007,PRD-0002,3,À emporter,Thérèse Marcoux,Quotidien
+ORD-0051,2025-09-01,EMP-0032,PRD-0002,1,Sur place,Hugues Savoie,Quotidien
+ORD-0052,2025-09-12,EMP-0034,PRD-0004,1,Sur place,Emmanuelle-Océane Paradis,Quotidien
+ORD-0053,2025-10-09,EMP-0034,PRD-0001,2,À emporter,Gilles Benoît,Quotidien
+ORD-0054,2025-01-29,EMP-0029,PRD-0002,6,Livraison,Sébastien-Hugues Paradis,Quotidien
+ORD-0055,2025-01-21,EMP-0003,PRD-0004,3,Livraison,Pénélope Savoie,Anniversaire
+ORD-0056,2025-11-12,EMP-0007,PRD-0004,7,À emporter,Théodore Thibault,Anniversaire
+ORD-0057,2025-03-21,EMP-0008,PRD-0001,8,Sur place,Jean Savard-Larocque,Atelier
+ORD-0058,2025-02-08,EMP-0008,PRD-0006,2,Sur place,Manon Ménard,Quotidien
+ORD-0059,2025-05-26,EMP-0003,PRD-0003,2,Livraison,Rémy Morin,Quotidien
+ORD-0060,2025-03-13,EMP-0008,PRD-0004,4,À emporter,Christine Soucy,Quotidien
+ORD-0061,2025-09-25,EMP-0025,PRD-0002,4,Sur place,Gérard Boulanger,Quotidien
+ORD-0062,2025-03-11,EMP-0034,PRD-0002,6,Sur place,René Chouinard,Quotidien
+ORD-0063,2025-08-06,EMP-0029,PRD-0004,6,Sur place,Diane Grégoire,Quotidien
+ORD-0064,2025-09-25,EMP-0029,PRD-0002,48,Sur place,Roland Grégoire,Corporate
+ORD-0065,2025-09-14,EMP-0008,PRD-0003,3,Sur place,Dorothée Laroche,Quotidien
+ORD-0066,2025-08-20,EMP-0025,PRD-0005,5,Sur place,Diane Caron,Quotidien
+ORD-0067,2025-09-01,EMP-0025,PRD-0001,5,Sur place,Tristan Bisson,Quotidien
+ORD-0068,2025-04-12,EMP-0032,PRD-0003,1,Sur place,Marianne Germain,Quotidien
+ORD-0069,2025-04-05,EMP-0035,PRD-0003,4,Sur place,Nathalie Arsenault,Quotidien
+ORD-0070,2025-05-14,EMP-0008,PRD-0003,25,À emporter,Théodore Paradis-Gingras,Corporate
+ORD-0071,2025-06-13,EMP-0003,PRD-0004,6,Sur place,Vanessa Savard-Bédard,Quotidien
+ORD-0072,2025-11-01,EMP-0008,PRD-0005,25,Sur place,Emmanuel Richer-Couture,Corporate
+ORD-0073,2025-08-20,EMP-0035,PRD-0006,6,Sur place,Dominique Desrosiers,Quotidien
+ORD-0074,2025-11-23,EMP-0025,PRD-0002,35,Livraison,Françoise Renaud,Corporate
+ORD-0075,2025-11-03,EMP-0035,PRD-0001,2,À emporter,Pénélope Ferland,Atelier
+ORD-0076,2025-10-30,EMP-0007,PRD-0006,30,À emporter,Marianne-Christine Plante,Corporate
+ORD-0077,2025-02-26,EMP-0032,PRD-0002,43,Sur place,Marie-Joséphine St-Jean,Corporate
+ORD-0078,2025-05-02,EMP-0034,PRD-0002,6,À emporter,Patricia-Gabrielle Bolduc,Quotidien
+ORD-0079,2025-12-09,EMP-0008,PRD-0004,3,À emporter,Marcelle Duguay,Quotidien
+ORD-0080,2025-02-11,EMP-0008,PRD-0004,29,À emporter,Christiane Soucy,Corporate
+ORD-0081,2025-07-24,EMP-0025,PRD-0002,1,Sur place,Denise Boivin,Quotidien
+ORD-0082,2025-02-16,EMP-0029,PRD-0002,4,Sur place,Richard Larocque,Quotidien
+ORD-0083,2025-11-19,EMP-0029,PRD-0006,6,À emporter,Paulette Beaulieu,Quotidien
+ORD-0084,2025-08-22,EMP-0029,PRD-0005,5,Livraison,Audrey Lefebvre,Quotidien
+ORD-0085,2025-03-29,EMP-0008,PRD-0001,6,À emporter,Zoé Villeneuve,Anniversaire
+ORD-0086,2025-06-03,EMP-0025,PRD-0003,4,Sur place,Henri-Arthur Blais,Quotidien
+ORD-0087,2025-01-22,EMP-0025,PRD-0004,4,À emporter,Raymond Larivière-Gauthier,Quotidien
+ORD-0088,2025-07-30,EMP-0007,PRD-0004,1,À emporter,Jérôme Laliberté,Anniversaire
+ORD-0089,2025-01-24,EMP-0007,PRD-0003,16,À emporter,Pierre Lavoie,Corporate
+ORD-0090,2025-09-30,EMP-0035,PRD-0003,4,À emporter,Odette Thibodeau,Quotidien
+ORD-0091,2025-04-29,EMP-0008,PRD-0003,17,Livraison,Manon Larocque,Corporate
+ORD-0092,2025-07-28,EMP-0029,PRD-0002,6,Sur place,Roger Blouin,Quotidien
+ORD-0093,2025-06-22,EMP-0034,PRD-0001,1,Livraison,Camille Beauregard,Quotidien
+ORD-0094,2025-09-19,EMP-0025,PRD-0006,3,À emporter,Alexandra-Émilie Lemire,Quotidien
+ORD-0095,2025-11-22,EMP-0032,PRD-0004,1,Sur place,Élodie Bolduc-Brassard,Quotidien
+ORD-0096,2025-09-15,EMP-0035,PRD-0002,5,Sur place,Grégoire Labelle,Quotidien
+ORD-0097,2025-11-17,EMP-0029,PRD-0002,20,Sur place,Rémy Asselin-Mercier,Corporate
+ORD-0098,2025-10-19,EMP-0029,PRD-0006,6,À emporter,Manon Rivard,Anniversaire
+ORD-0099,2025-09-29,EMP-0035,PRD-0005,45,À emporter,Martine Séguin,Corporate
+ORD-0100,2025-04-27,EMP-0032,PRD-0004,26,Sur place,Julie Potvin,Corporate
+ORD-0101,2025-10-28,EMP-0029,PRD-0005,2,Sur place,Nathan Charron-Delisle,Quotidien
+ORD-0102,2025-04-20,EMP-0008,PRD-0005,6,Livraison,Maxime Veilleux-Labelle,Quotidien
+ORD-0103,2025-02-27,EMP-0029,PRD-0005,5,À emporter,Jeanne Bégin,Quotidien
+ORD-0104,2025-01-14,EMP-0032,PRD-0003,3,Livraison,Samuel Lussier,Quotidien
+ORD-0105,2025-12-25,EMP-0034,PRD-0001,3,Sur place,Agnès Audet,Quotidien
+ORD-0106,2025-09-01,EMP-0007,PRD-0001,2,Livraison,Claude Vallée-Desrosiers,Quotidien
+ORD-0107,2025-04-20,EMP-0029,PRD-0005,3,Sur place,Alain Lavoie,Anniversaire
+ORD-0108,2025-07-09,EMP-0032,PRD-0005,4,Sur place,Odette Guillemette,Quotidien
+ORD-0109,2025-11-18,EMP-0029,PRD-0004,6,À emporter,Frédéric Boulanger,Quotidien
+ORD-0110,2025-03-19,EMP-0034,PRD-0002,2,À emporter,Hortense Larocque,Anniversaire
+ORD-0111,2025-06-30,EMP-0029,PRD-0005,6,Sur place,Roland-Richard Turcotte,Quotidien
+ORD-0112,2025-07-06,EMP-0025,PRD-0003,2,Sur place,Raymond Mercier,Anniversaire
+ORD-0113,2025-09-21,EMP-0034,PRD-0001,1,Sur place,Émile Denis,Quotidien
+ORD-0114,2025-05-12,EMP-0034,PRD-0001,31,À emporter,Jérôme Pilon,Corporate
+ORD-0115,2025-06-21,EMP-0032,PRD-0002,2,À emporter,Pauline Raymond-Boulanger,Quotidien
+ORD-0116,2025-08-01,EMP-0008,PRD-0005,12,Sur place,Sarah-Gabrielle Lachapelle,Corporate
+ORD-0117,2025-01-08,EMP-0035,PRD-0005,43,Livraison,Jonathan Champagne,Corporate
+ORD-0118,2025-04-13,EMP-0003,PRD-0002,4,Sur place,Béatrice Ouellet,Quotidien
+ORD-0119,2025-06-16,EMP-0034,PRD-0002,4,Sur place,Stéphane Cyr-Lemay,Quotidien
+ORD-0120,2025-05-22,EMP-0007,PRD-0006,1,Sur place,Nicolas Dionne,Quotidien
+ORD-0121,2025-11-13,EMP-0007,PRD-0005,5,Livraison,Théodore Cyr,Quotidien
+ORD-0122,2025-09-27,EMP-0003,PRD-0001,6,Sur place,Lucas Labelle-Leduc,Quotidien
+ORD-0123,2025-01-17,EMP-0032,PRD-0002,5,Sur place,Guillaume Richer,Quotidien
+ORD-0124,2025-03-24,EMP-0034,PRD-0001,1,Livraison,Laetitia Brunet-Lemire,Quotidien
+ORD-0125,2025-07-15,EMP-0035,PRD-0002,47,À emporter,Édouard Leblanc,Corporate
+ORD-0126,2025-12-11,EMP-0003,PRD-0006,6,Sur place,Nathalie Audet,Quotidien
+ORD-0127,2025-06-25,EMP-0025,PRD-0003,4,À emporter,Luc Labelle,Quotidien
+ORD-0128,2025-07-14,EMP-0008,PRD-0004,30,Sur place,Florence Drolet-Gagné,Corporate
+ORD-0129,2025-10-16,EMP-0034,PRD-0005,2,Livraison,Nicolas Morin,Quotidien
+ORD-0130,2025-09-13,EMP-0034,PRD-0005,3,Livraison,Isabelle-Claudine Lemieux,Quotidien
+ORD-0131,2025-10-23,EMP-0029,PRD-0006,4,À emporter,Michel Tremblay,Quotidien
+ORD-0132,2025-09-13,EMP-0025,PRD-0004,45,Sur place,Mathieu-Roger Michaud,Corporate
+ORD-0133,2025-07-16,EMP-0025,PRD-0004,5,Sur place,Margot Larocque,Anniversaire
+ORD-0134,2025-03-20,EMP-0035,PRD-0003,22,Sur place,Richard Lefebvre,Corporate
+ORD-0135,2025-05-02,EMP-0007,PRD-0002,6,Livraison,Anne Bisson,Quotidien
+ORD-0136,2025-11-03,EMP-0035,PRD-0006,5,Sur place,Nathalie-Monique Fréchette,Quotidien
+ORD-0137,2025-03-01,EMP-0035,PRD-0004,3,Sur place,Guillaume Langlois,Quotidien
+ORD-0138,2025-02-15,EMP-0007,PRD-0005,1,À emporter,Daniel Laflamme,Quotidien
+ORD-0139,2025-11-18,EMP-0007,PRD-0005,1,Livraison,Philippe Richard,Quotidien
+ORD-0140,2025-04-27,EMP-0029,PRD-0003,9,Sur place,Benoît Laliberté,Anniversaire
+ORD-0141,2025-06-01,EMP-0025,PRD-0006,5,À emporter,Jacqueline Charbonneau,Quotidien
+ORD-0142,2025-06-05,EMP-0034,PRD-0004,1,Livraison,Charles Thériault-Lavallée,Quotidien
+ORD-0143,2025-01-09,EMP-0003,PRD-0006,6,À emporter,Anouk Denis,Quotidien
+ORD-0144,2025-08-19,EMP-0008,PRD-0005,5,Livraison,Mathieu Rodrigue,Quotidien
+ORD-0145,2025-11-09,EMP-0008,PRD-0005,1,À emporter,Richard Gagnon,Quotidien
+ORD-0146,2025-08-04,EMP-0003,PRD-0002,43,Sur place,Théodore Nadeau,Corporate
+ORD-0147,2025-12-14,EMP-0034,PRD-0003,2,Sur place,Guillaume Proulx,Anniversaire
+ORD-0148,2025-09-27,EMP-0035,PRD-0003,4,À emporter,Diane Smith-Forget,Anniversaire
+ORD-0149,2025-08-14,EMP-0008,PRD-0002,4,Sur place,Alexis Piché,Quotidien
+ORD-0150,2025-05-22,EMP-0034,PRD-0005,34,Sur place,Céline Bérubé,Corporate
+ORD-0151,2025-03-03,EMP-0032,PRD-0003,5,À emporter,Maude Paquette,Quotidien
+ORD-0152,2025-08-28,EMP-0035,PRD-0003,3,Sur place,Xavier Boisvert,Quotidien
+ORD-0153,2025-03-09,EMP-0025,PRD-0002,1,À emporter,Astrid Langlois,Quotidien
+ORD-0154,2025-02-06,EMP-0029,PRD-0006,1,À emporter,Antoine Martel,Quotidien
+ORD-0155,2025-07-26,EMP-0034,PRD-0003,6,Sur place,Marc Delisle-Lavoie,Quotidien
+ORD-0156,2025-10-16,EMP-0035,PRD-0005,4,Sur place,Michèle-Astrid Fortier,Anniversaire
+ORD-0157,2025-01-29,EMP-0029,PRD-0003,4,Sur place,Juliette Maltais,Quotidien
+ORD-0158,2025-02-25,EMP-0035,PRD-0004,5,Sur place,Louis Lacroix,Atelier
+ORD-0159,2025-10-10,EMP-0034,PRD-0001,4,Sur place,Luc Caron,Quotidien
+ORD-0160,2025-09-19,EMP-0029,PRD-0006,1,Sur place,René Blanchette,Quotidien
+ORD-0161,2025-06-28,EMP-0003,PRD-0003,4,Sur place,Marie Pépin,Anniversaire
+ORD-0162,2025-02-10,EMP-0007,PRD-0004,4,Sur place,Valérie Bélisle,Quotidien
+ORD-0163,2025-03-20,EMP-0007,PRD-0004,1,À emporter,Alexandre Grenier,Quotidien
+ORD-0164,2025-12-30,EMP-0034,PRD-0005,5,Sur place,Victor-Jules Perron,Quotidien
+ORD-0165,2025-02-01,EMP-0003,PRD-0005,2,À emporter,Marc Picard,Quotidien
+ORD-0166,2025-11-17,EMP-0029,PRD-0006,4,Sur place,Charlotte Bégin-Tessier,Quotidien
+ORD-0167,2025-02-01,EMP-0025,PRD-0006,4,Livraison,Élise Lachapelle-Prévost,Anniversaire
+ORD-0168,2025-08-27,EMP-0034,PRD-0006,3,Sur place,Martine Boily,Quotidien
+ORD-0169,2025-03-02,EMP-0032,PRD-0006,1,Sur place,Guillaume Dubois,Anniversaire
+ORD-0170,2025-08-11,EMP-0003,PRD-0003,12,Sur place,François Gravel,Corporate
+ORD-0171,2025-08-25,EMP-0008,PRD-0002,2,Livraison,Stéphane Paré,Anniversaire
+ORD-0172,2025-08-21,EMP-0029,PRD-0001,6,Sur place,Kevin Lambert,Quotidien
+ORD-0173,2025-03-01,EMP-0007,PRD-0004,1,Sur place,Xavier-Charles Charbonneau,Quotidien
+ORD-0174,2025-12-29,EMP-0003,PRD-0001,6,Sur place,Louise Bouchard,Quotidien
+ORD-0175,2025-01-11,EMP-0035,PRD-0005,3,Livraison,René Béland,Quotidien
+ORD-0176,2025-01-24,EMP-0032,PRD-0002,2,Sur place,Vincent Forget,Quotidien
+ORD-0177,2025-02-28,EMP-0025,PRD-0003,20,Sur place,Édith Dufresne,Corporate
+ORD-0178,2025-12-19,EMP-0025,PRD-0004,3,Sur place,Laetitia Plourde,Quotidien
+ORD-0179,2025-05-28,EMP-0032,PRD-0005,5,Sur place,Julien Larivière,Quotidien
+ORD-0180,2025-06-24,EMP-0032,PRD-0001,2,Sur place,Cécile Gingras,Quotidien
+ORD-0181,2025-08-24,EMP-0032,PRD-0005,4,À emporter,Maurice Godin,Quotidien
+ORD-0182,2025-04-18,EMP-0003,PRD-0001,3,Sur place,Nathan-Raphaël Bergeron,Quotidien
+ORD-0183,2025-07-05,EMP-0003,PRD-0001,2,À emporter,Charles Tardif-Benoît,Quotidien
+ORD-0184,2025-11-27,EMP-0035,PRD-0002,3,À emporter,André Lavoie,Quotidien
+ORD-0185,2025-05-02,EMP-0008,PRD-0004,28,Sur place,Juliette Houle-Legault,Corporate
+ORD-0186,2025-08-11,EMP-0035,PRD-0002,8,Livraison,Éric Bisson,Anniversaire
+ORD-0187,2025-03-26,EMP-0032,PRD-0002,30,Livraison,Noël Noël,Corporate
+ORD-0188,2025-08-28,EMP-0034,PRD-0005,1,Livraison,Stéphane St-Laurent,Quotidien
+ORD-0189,2025-02-25,EMP-0003,PRD-0002,5,Livraison,Olivier Lavoie,Quotidien
+ORD-0190,2025-09-23,EMP-0003,PRD-0003,6,Sur place,Stéphane-Raphaël Patel,Quotidien
+ORD-0191,2025-04-10,EMP-0035,PRD-0001,9,Sur place,Alex-Alexandra Trudel,Atelier
+ORD-0192,2025-06-15,EMP-0007,PRD-0002,1,Sur place,Samuel Vézina,Quotidien
+ORD-0193,2025-12-08,EMP-0007,PRD-0005,3,Sur place,Édouard Chouinard,Atelier
+ORD-0194,2025-06-04,EMP-0025,PRD-0002,4,À emporter,Philippe Vincent-Dupont,Quotidien
+ORD-0195,2025-02-22,EMP-0008,PRD-0004,46,Sur place,Raymond Deschênes,Corporate
+ORD-0196,2025-08-18,EMP-0034,PRD-0003,10,Sur place,Rémy Paradis,Anniversaire
+ORD-0197,2025-05-12,EMP-0003,PRD-0002,2,À emporter,Frédérique-Chantal Fortier,Quotidien
+ORD-0198,2025-02-18,EMP-0003,PRD-0001,1,Livraison,Laurence-Gabrielle Turcotte,Quotidien
+ORD-0199,2025-04-17,EMP-0008,PRD-0001,3,Livraison,Rémy Vézina,Quotidien
+ORD-0200,2025-06-24,EMP-0003,PRD-0006,6,Livraison,Louis Lemieux,Atelier
+ORD-0201,2025-11-29,EMP-0029,PRD-0002,39,Sur place,Kevin-Laurent Patel,Corporate
+ORD-0202,2025-10-23,EMP-0032,PRD-0005,24,Livraison,Éric-Michel Moreau,Corporate
+ORD-0203,2025-12-17,EMP-0035,PRD-0004,38,Livraison,Sébastien-Jérôme Villeneuve,Corporate
+ORD-0204,2025-03-28,EMP-0035,PRD-0006,5,Sur place,Hortense Trudel-Dion,Quotidien
+ORD-0205,2025-01-20,EMP-0029,PRD-0003,1,À emporter,Marie Labonté,Quotidien
+ORD-0206,2025-11-20,EMP-0034,PRD-0003,3,Sur place,Maurice Sirois,Quotidien
+ORD-0207,2025-07-07,EMP-0029,PRD-0001,25,Sur place,Roland Lepage,Corporate
+ORD-0208,2025-05-21,EMP-0035,PRD-0006,5,Sur place,Joseph Savoie,Quotidien
+ORD-0209,2025-01-12,EMP-0025,PRD-0006,4,Sur place,Yves-Xavier Nadeau,Atelier
+ORD-0210,2025-10-25,EMP-0008,PRD-0006,6,Sur place,Christelle Dufour,Quotidien
+ORD-0211,2025-02-23,EMP-0003,PRD-0002,4,À emporter,Margot Doucet,Quotidien
+ORD-0212,2025-05-31,EMP-0029,PRD-0003,5,Livraison,Jonathan Charbonneau,Quotidien
+ORD-0213,2025-04-08,EMP-0003,PRD-0001,2,Sur place,Georges St-Laurent,Quotidien
+ORD-0214,2025-08-22,EMP-0034,PRD-0003,3,Livraison,Élisabeth St-Pierre,Quotidien
+ORD-0215,2025-10-12,EMP-0029,PRD-0005,3,Sur place,Renée Bégin,Quotidien
+ORD-0216,2025-10-19,EMP-0008,PRD-0001,2,Sur place,Paul Nguyen,Quotidien
+ORD-0217,2025-11-23,EMP-0007,PRD-0001,2,À emporter,Susanne Lavoie,Quotidien
+ORD-0218,2025-07-12,EMP-0032,PRD-0006,1,Sur place,Alice Savoie-Veilleux,Quotidien
+ORD-0219,2025-03-02,EMP-0008,PRD-0006,4,Livraison,Élise Martin,Quotidien
+ORD-0220,2025-08-15,EMP-0003,PRD-0004,6,Sur place,Gérard St-Onge,Quotidien
+ORD-0221,2025-08-01,EMP-0003,PRD-0003,1,Livraison,Gérard Goulet,Quotidien
+ORD-0222,2025-04-14,EMP-0003,PRD-0003,2,À emporter,Stéphanie Émond,Quotidien
+ORD-0223,2025-02-26,EMP-0034,PRD-0001,26,Sur place,Philippe Grenier,Corporate
+ORD-0224,2025-07-11,EMP-0008,PRD-0001,6,Livraison,Paulette Maltais,Quotidien
+ORD-0225,2025-11-18,EMP-0007,PRD-0006,28,Sur place,Mathieu Beaudoin-Nguyen,Corporate
+ORD-0226,2025-07-22,EMP-0029,PRD-0006,1,Sur place,François-Mathieu Trottier,Atelier
+ORD-0227,2025-01-13,EMP-0007,PRD-0002,1,Sur place,Grégoire Paré,Quotidien
+ORD-0228,2025-02-13,EMP-0029,PRD-0003,4,Sur place,Timothée-Vincent Marchand,Quotidien
+ORD-0229,2025-12-20,EMP-0025,PRD-0004,5,Sur place,Rémy-Alain Thibault,Quotidien
+ORD-0230,2025-05-20,EMP-0029,PRD-0005,5,Livraison,Laurence Dumont,Anniversaire
+ORD-0231,2025-09-20,EMP-0035,PRD-0004,1,À emporter,Georges Paré,Quotidien
+ORD-0232,2025-08-08,EMP-0007,PRD-0005,5,Sur place,William Cyr,Quotidien
+ORD-0233,2025-09-16,EMP-0029,PRD-0001,1,À emporter,Olivia-Amélie Duguay,Quotidien
+ORD-0234,2025-03-07,EMP-0008,PRD-0005,6,À emporter,Denise-Christiane Charette,Quotidien
+ORD-0235,2025-03-24,EMP-0032,PRD-0002,3,Sur place,Charles Rioux,Quotidien
+ORD-0236,2025-07-18,EMP-0008,PRD-0004,3,À emporter,Julie Maltais,Quotidien
+ORD-0237,2025-02-03,EMP-0003,PRD-0005,5,Sur place,Benoît Nadeau,Atelier
+ORD-0238,2025-07-29,EMP-0007,PRD-0001,1,À emporter,Hortense St-Jean,Quotidien
+ORD-0239,2025-04-28,EMP-0034,PRD-0002,6,Livraison,Odette Noël,Quotidien
+ORD-0240,2025-11-21,EMP-0034,PRD-0001,5,À emporter,Lorraine Gilbert,Quotidien
+ORD-0241,2025-09-06,EMP-0007,PRD-0002,41,Sur place,Nicolas Smith,Corporate
+ORD-0242,2025-07-15,EMP-0003,PRD-0003,4,Sur place,Maurice-Daniel Jacques,Atelier
+ORD-0243,2025-09-20,EMP-0025,PRD-0002,6,À emporter,Daniel Tessier,Quotidien
+ORD-0244,2025-07-28,EMP-0029,PRD-0001,4,Livraison,Nathalie Harvey,Quotidien
+ORD-0245,2025-10-04,EMP-0035,PRD-0005,3,Livraison,Diane-Isabelle Gaudreault,Quotidien
+ORD-0246,2025-04-08,EMP-0007,PRD-0006,4,À emporter,Élise Gélinas,Quotidien
+ORD-0247,2025-05-20,EMP-0025,PRD-0006,8,À emporter,Thomas Dionne,Atelier
+ORD-0248,2025-07-25,EMP-0007,PRD-0002,8,Sur place,Henri Veilleux,Anniversaire
+ORD-0249,2025-12-12,EMP-0035,PRD-0005,6,Sur place,Océane Lebel-Savard,Quotidien
+ORD-0250,2025-11-09,EMP-0034,PRD-0003,6,Sur place,Guillaume-Noël Paquin,Quotidien
+ORD-0251,2025-11-01,EMP-0007,PRD-0002,6,Livraison,Colette Gélinas,Quotidien
+ORD-0252,2025-06-21,EMP-0035,PRD-0006,3,À emporter,Dorothée Turcotte,Quotidien
+ORD-0253,2025-09-03,EMP-0032,PRD-0004,5,Livraison,Robert Grenier-Vincent,Quotidien
+ORD-0254,2025-11-20,EMP-0035,PRD-0001,12,Livraison,Henriette Brisson,Corporate
+ORD-0255,2025-11-02,EMP-0035,PRD-0005,5,Sur place,Stéphanie Auger-Turgeon,Quotidien
+ORD-0256,2025-07-20,EMP-0032,PRD-0001,7,Livraison,Christine Dallaire,Anniversaire
+ORD-0257,2025-02-10,EMP-0003,PRD-0001,6,Sur place,Antoine Coulombe,Quotidien
+ORD-0258,2025-12-21,EMP-0034,PRD-0001,23,Sur place,Françoise-Anaïs Martel,Corporate
+ORD-0259,2025-12-13,EMP-0035,PRD-0001,1,Livraison,Paul-Bernard Tremblay,Quotidien
+ORD-0260,2025-08-31,EMP-0034,PRD-0005,5,Livraison,Agnès Duguay,Quotidien
+ORD-0261,2025-08-07,EMP-0003,PRD-0002,3,Livraison,Marcel-Martin Côté,Quotidien
+ORD-0262,2025-02-25,EMP-0034,PRD-0001,21,Livraison,Émile Drouin,Corporate
+ORD-0263,2025-10-03,EMP-0007,PRD-0001,3,Sur place,Raymond Dion-Lavigne,Anniversaire
+ORD-0264,2025-12-03,EMP-0034,PRD-0005,12,À emporter,Josette Bilodeau,Corporate
+ORD-0265,2025-01-20,EMP-0008,PRD-0001,6,À emporter,Mélanie Labonté,Quotidien
+ORD-0266,2025-07-16,EMP-0032,PRD-0006,5,Sur place,Jonathan Nguyen-Marchand,Quotidien
+ORD-0267,2025-09-05,EMP-0008,PRD-0001,2,Sur place,Christiane Bergeron-Turcotte,Quotidien
+ORD-0268,2025-07-25,EMP-0034,PRD-0006,3,À emporter,Antoine Lacroix,Quotidien
+ORD-0269,2025-02-02,EMP-0025,PRD-0003,3,À emporter,Mathieu Lacroix,Quotidien
+ORD-0270,2025-03-21,EMP-0003,PRD-0005,1,Sur place,Andrée Prévost,Quotidien
+ORD-0271,2025-03-10,EMP-0025,PRD-0002,35,Livraison,Arthur Breton,Corporate
+ORD-0272,2025-09-20,EMP-0029,PRD-0002,5,Sur place,Éric Picard-Duguay,Quotidien
+ORD-0273,2025-07-09,EMP-0007,PRD-0005,3,Livraison,Alain Lemay-Roy,Quotidien
+ORD-0274,2025-05-23,EMP-0034,PRD-0003,3,Sur place,Michelle Létourneau,Quotidien
+ORD-0275,2025-12-13,EMP-0003,PRD-0003,17,Livraison,Camille Rioux,Corporate
+ORD-0276,2025-04-22,EMP-0008,PRD-0005,47,À emporter,Céline Proulx,Corporate
+ORD-0277,2025-06-20,EMP-0025,PRD-0004,3,À emporter,Margot Breton-Charbonneau,Quotidien
+ORD-0278,2025-03-28,EMP-0035,PRD-0003,5,À emporter,François Marchand,Atelier
+ORD-0279,2025-04-17,EMP-0034,PRD-0004,4,À emporter,Michelle Duguay,Quotidien
+ORD-0280,2025-08-25,EMP-0007,PRD-0005,6,Sur place,Océane Savoie-Lavigne,Quotidien
+ORD-0281,2025-01-01,EMP-0025,PRD-0002,8,Livraison,Denis Pelletier,Anniversaire
+ORD-0282,2025-11-19,EMP-0034,PRD-0004,5,À emporter,Dorothée Simard-Gosselin,Quotidien
+ORD-0283,2025-06-13,EMP-0003,PRD-0006,1,Livraison,Sophie Dumas-Paradis,Quotidien
+ORD-0284,2025-08-14,EMP-0007,PRD-0001,28,Sur place,Victor-Olivier Labrecque,Corporate
+ORD-0285,2025-03-31,EMP-0003,PRD-0006,40,Livraison,Sébastien Pelletier,Corporate
+ORD-0286,2025-03-30,EMP-0008,PRD-0005,14,Livraison,Michelle-Virginie Fontaine,Corporate
+ORD-0287,2025-12-21,EMP-0034,PRD-0005,30,Sur place,Rémy Leclerc,Corporate
+ORD-0288,2025-11-24,EMP-0007,PRD-0006,5,Sur place,Jacques Tanguay,Quotidien
+ORD-0289,2025-01-27,EMP-0003,PRD-0004,1,À emporter,Pierre Hébert-Bélanger,Quotidien
+ORD-0290,2025-03-31,EMP-0003,PRD-0003,2,Livraison,Danielle Laliberté,Anniversaire
+ORD-0291,2025-03-15,EMP-0029,PRD-0003,1,Sur place,Arthur Labbé,Quotidien
+ORD-0292,2025-07-19,EMP-0003,PRD-0006,2,À emporter,Agnès Dumas-Beaudry,Mariage
+ORD-0293,2025-12-06,EMP-0032,PRD-0001,5,Livraison,Célina-Patricia Girard,Quotidien
+ORD-0294,2025-12-01,EMP-0025,PRD-0001,4,Sur place,Célina Giroux,Quotidien
+ORD-0295,2025-02-05,EMP-0025,PRD-0001,4,Sur place,Nicole Poirier,Quotidien
+ORD-0296,2025-06-13,EMP-0007,PRD-0006,3,À emporter,Camille Carrier,Anniversaire
+ORD-0297,2025-11-01,EMP-0035,PRD-0002,3,Sur place,Camille Sirois,Quotidien
+ORD-0298,2025-03-20,EMP-0029,PRD-0001,2,Livraison,Astrid Martin-Roy,Quotidien
+ORD-0299,2025-03-16,EMP-0029,PRD-0002,6,À emporter,Véronique Goulet,Quotidien
+ORD-0300,2025-01-10,EMP-0029,PRD-0003,1,Sur place,Nathalie Girard,Quotidien
+ORD-0301,2025-01-17,EMP-0034,PRD-0001,4,Sur place,Alexandre Perron-Godin,Quotidien
+ORD-0302,2025-09-16,EMP-0003,PRD-0004,1,Sur place,Vanessa Ferland,Quotidien
+ORD-0303,2025-02-17,EMP-0032,PRD-0004,5,Sur place,Céline Duval,Quotidien
+ORD-0304,2025-05-31,EMP-0035,PRD-0004,31,Sur place,Célina-Maryse Trudel,Corporate
+ORD-0305,2025-05-04,EMP-0035,PRD-0002,1,À emporter,Clémence St-Laurent,Quotidien
+ORD-0306,2025-11-18,EMP-0007,PRD-0003,4,Livraison,Susanne-Vanessa Blais,Quotidien
+ORD-0307,2025-07-19,EMP-0008,PRD-0003,5,Sur place,Christiane-Jeannine Brunet,Quotidien
+ORD-0308,2025-12-03,EMP-0003,PRD-0001,5,À emporter,Alice Lévesque,Quotidien
+ORD-0309,2025-12-21,EMP-0008,PRD-0006,41,Sur place,Paul Turgeon,Corporate
+ORD-0310,2025-06-04,EMP-0003,PRD-0001,36,Livraison,Robert Labrecque,Corporate
+ORD-0311,2025-10-21,EMP-0003,PRD-0003,4,À emporter,Frédérique-Dorothée Durand,Quotidien
+ORD-0312,2025-12-29,EMP-0025,PRD-0002,5,Sur place,Daniel Richer-Leduc,Quotidien
+ORD-0313,2025-02-02,EMP-0007,PRD-0005,20,Sur place,Benoît Laliberté,Corporate
+ORD-0314,2025-03-05,EMP-0003,PRD-0004,33,À emporter,Martin Marcotte,Corporate
+ORD-0315,2025-06-21,EMP-0025,PRD-0001,5,Sur place,Rémy Rodrigue,Quotidien
+ORD-0316,2025-06-20,EMP-0007,PRD-0004,1,Livraison,Jules Charron,Quotidien
+ORD-0317,2025-03-07,EMP-0032,PRD-0006,2,Sur place,Grégoire-Emmanuel Dallaire,Mariage
+ORD-0318,2025-12-22,EMP-0007,PRD-0003,4,Sur place,Robert Lefebvre,Quotidien
+ORD-0319,2025-07-20,EMP-0003,PRD-0004,4,Livraison,Paul Vézina,Quotidien
+ORD-0320,2025-02-05,EMP-0003,PRD-0003,4,Sur place,Émile Roberge,Quotidien
+ORD-0321,2025-11-28,EMP-0029,PRD-0005,3,À emporter,Louise Charron,Quotidien
+ORD-0322,2025-01-07,EMP-0025,PRD-0002,2,Sur place,Bernard Rioux,Quotidien
+ORD-0323,2025-05-15,EMP-0029,PRD-0001,4,Sur place,Julie Carrier,Quotidien
+ORD-0324,2025-01-10,EMP-0003,PRD-0001,1,Sur place,Richard Rodrigue,Quotidien
+ORD-0325,2025-12-09,EMP-0025,PRD-0006,6,À emporter,Jacqueline-Cécile Beauchamp,Quotidien
+ORD-0326,2025-01-03,EMP-0025,PRD-0006,1,Livraison,Daniel Asselin,Quotidien
+ORD-0327,2025-12-06,EMP-0034,PRD-0004,4,Livraison,Louis-Bertrand Boily,Quotidien
+ORD-0328,2025-07-23,EMP-0008,PRD-0001,26,À emporter,Élisabeth-Catherine Simard,Corporate
+ORD-0329,2025-08-03,EMP-0029,PRD-0003,16,À emporter,Claudine Durand,Corporate
+ORD-0330,2025-06-30,EMP-0008,PRD-0004,3,Livraison,Mathieu Legault,Quotidien
+ORD-0331,2025-11-26,EMP-0008,PRD-0006,2,Sur place,Émile Ferland,Quotidien
+ORD-0332,2025-06-27,EMP-0034,PRD-0006,2,Livraison,Julien Beauchamp-Duchesne,Quotidien
+ORD-0333,2025-12-20,EMP-0034,PRD-0005,35,Sur place,Alexandra Laflamme,Corporate
+ORD-0334,2025-08-30,EMP-0032,PRD-0001,2,Sur place,Maryse Potvin,Mariage
+ORD-0335,2025-12-23,EMP-0035,PRD-0006,3,Sur place,Vanessa Michaud,Quotidien
+ORD-0336,2025-01-28,EMP-0025,PRD-0001,2,Sur place,Jules Lavallée,Quotidien
+ORD-0337,2025-04-15,EMP-0029,PRD-0001,7,À emporter,Pierre-Pierre Landry,Anniversaire
+ORD-0338,2025-03-02,EMP-0029,PRD-0005,6,Sur place,Christiane Germain,Quotidien
+ORD-0339,2025-01-09,EMP-0029,PRD-0004,2,Sur place,Denis Bélanger,Quotidien
+ORD-0340,2025-08-22,EMP-0008,PRD-0004,4,Livraison,Gilles Robert-Bouchard,Quotidien
+ORD-0341,2025-08-24,EMP-0035,PRD-0003,45,Livraison,Hélène Desbiens,Corporate
+ORD-0342,2025-10-09,EMP-0025,PRD-0001,5,À emporter,Arthur Turgeon,Quotidien
+ORD-0343,2025-10-12,EMP-0025,PRD-0001,14,Sur place,Sébastien Laroche-Turgeon,Corporate
+ORD-0344,2025-05-12,EMP-0029,PRD-0002,5,À emporter,Alexis Martin,Quotidien
+ORD-0345,2025-06-30,EMP-0032,PRD-0005,6,Sur place,Sarah-Virginie Robert,Quotidien
+ORD-0346,2025-01-20,EMP-0029,PRD-0002,6,Sur place,Lucie Germain,Quotidien
+ORD-0347,2025-03-20,EMP-0008,PRD-0004,1,À emporter,Dorothée Couture,Quotidien
+ORD-0348,2025-06-10,EMP-0008,PRD-0005,5,Livraison,Thérèse Mercier,Quotidien
+ORD-0349,2025-02-18,EMP-0007,PRD-0004,2,Livraison,Xavier Guay,Quotidien
+ORD-0350,2025-07-17,EMP-0034,PRD-0003,4,À emporter,Michel-Nicolas Picard,Quotidien
+ORD-0351,2025-11-14,EMP-0029,PRD-0002,1,Livraison,Zacharie Beaulieu,Quotidien
+ORD-0352,2025-02-22,EMP-0034,PRD-0006,2,À emporter,Yves Drouin,Quotidien
+ORD-0353,2025-08-27,EMP-0025,PRD-0002,3,Livraison,Margot Gélinas,Quotidien
+ORD-0354,2025-04-05,EMP-0032,PRD-0003,1,À emporter,Bernard-Victor Lavigne,Anniversaire
+ORD-0355,2025-08-29,EMP-0032,PRD-0004,1,À emporter,Jeannine Charest,Quotidien
+ORD-0356,2025-05-11,EMP-0034,PRD-0006,1,Livraison,Alexandre-David Labonté,Quotidien
+ORD-0357,2025-01-29,EMP-0029,PRD-0004,1,À emporter,Manon Legault,Quotidien
+ORD-0358,2025-02-25,EMP-0029,PRD-0004,1,Sur place,Frédérique Robitaille,Quotidien
+ORD-0359,2025-04-10,EMP-0035,PRD-0005,2,Livraison,Denis Lavoie,Quotidien
+ORD-0360,2025-07-23,EMP-0035,PRD-0004,3,Sur place,Alexis Deschênes,Quotidien
+ORD-0361,2025-11-06,EMP-0008,PRD-0001,2,Sur place,David Pépin,Quotidien
+ORD-0362,2025-08-14,EMP-0025,PRD-0005,2,À emporter,Laurent Lalonde,Anniversaire
+ORD-0363,2025-12-03,EMP-0003,PRD-0006,13,Livraison,Éléonore Richer-Bégin,Corporate
+ORD-0364,2025-09-05,EMP-0032,PRD-0001,3,Livraison,Alex Lavigne,Anniversaire
+ORD-0365,2025-04-22,EMP-0025,PRD-0003,2,Sur place,Nicolas Morin,Quotidien
+ORD-0366,2025-01-27,EMP-0025,PRD-0001,8,Livraison,Sarah Labelle-Perron,Anniversaire
+ORD-0367,2025-02-17,EMP-0003,PRD-0003,45,Sur place,Jacques Chabot,Corporate
+ORD-0368,2025-12-08,EMP-0034,PRD-0001,5,Sur place,Marianne Landry,Anniversaire
+ORD-0369,2025-10-04,EMP-0032,PRD-0004,4,Sur place,Gérard Lapierre,Quotidien
+ORD-0370,2025-01-14,EMP-0035,PRD-0004,3,Sur place,Patrick Nguyen,Quotidien
+ORD-0371,2025-11-29,EMP-0007,PRD-0004,7,À emporter,Olivier Lachapelle-Thibodeau,Anniversaire
+ORD-0372,2025-02-05,EMP-0008,PRD-0003,33,Livraison,Lorraine Daigle,Corporate
+ORD-0373,2025-05-16,EMP-0029,PRD-0006,3,À emporter,Alain Larocque,Quotidien
+ORD-0374,2025-07-20,EMP-0032,PRD-0003,1,Sur place,Jean Piché,Quotidien
+ORD-0375,2025-09-15,EMP-0008,PRD-0002,2,Livraison,Louis Lamoureux,Quotidien
+ORD-0376,2025-12-09,EMP-0008,PRD-0005,2,Livraison,Dominique Perron,Mariage
+ORD-0377,2025-07-27,EMP-0035,PRD-0005,2,Livraison,Dominique Desjardins,Quotidien
+ORD-0378,2025-07-09,EMP-0029,PRD-0002,4,À emporter,François Breton,Quotidien
+ORD-0379,2025-08-06,EMP-0007,PRD-0003,5,À emporter,Florence Fortin,Atelier
+ORD-0380,2025-03-24,EMP-0007,PRD-0004,1,À emporter,Raymond Massé,Quotidien
+ORD-0381,2025-12-29,EMP-0007,PRD-0005,5,À emporter,Benjamin Brunet,Quotidien
+ORD-0382,2025-04-17,EMP-0029,PRD-0005,4,Sur place,Patrick Thibault,Quotidien
+ORD-0383,2025-05-05,EMP-0025,PRD-0001,22,Sur place,Andrée Giguère,Corporate
+ORD-0384,2025-09-28,EMP-0032,PRD-0004,44,Sur place,Louis Sirois,Corporate
+ORD-0385,2025-03-31,EMP-0029,PRD-0004,2,Sur place,Martine Cyr,Quotidien
+ORD-0386,2025-10-04,EMP-0029,PRD-0002,5,À emporter,Philippe Lemire,Quotidien
+ORD-0387,2025-01-07,EMP-0032,PRD-0006,3,À emporter,Julie Pilon,Quotidien
+ORD-0388,2025-08-12,EMP-0034,PRD-0003,7,Livraison,Gabriel Dion-Larouche,Anniversaire
+ORD-0389,2025-03-05,EMP-0003,PRD-0005,5,Sur place,Marcel Potvin,Quotidien
+ORD-0390,2025-10-20,EMP-0032,PRD-0004,4,Sur place,Laurent Provencher,Atelier
+ORD-0391,2025-03-12,EMP-0003,PRD-0004,19,Livraison,Frédéric Savard-Paré,Corporate
+ORD-0392,2025-05-30,EMP-0007,PRD-0003,37,Sur place,Jeannine Tanguay,Corporate
+ORD-0393,2025-07-19,EMP-0008,PRD-0001,7,À emporter,Emmanuelle Parent-Bédard,Anniversaire
+ORD-0394,2025-08-25,EMP-0025,PRD-0005,3,À emporter,Nathalie Nguyen-St-Pierre,Anniversaire
+ORD-0395,2025-09-07,EMP-0007,PRD-0003,24,À emporter,Margaret Plante,Corporate
+ORD-0396,2025-12-27,EMP-0025,PRD-0004,3,Livraison,Daniel St-Laurent,Quotidien
+ORD-0397,2025-04-06,EMP-0007,PRD-0003,6,Livraison,Anouk Benoît,Quotidien
+ORD-0398,2025-08-07,EMP-0007,PRD-0006,1,À emporter,Stéphane Racine,Quotidien
+ORD-0399,2025-11-20,EMP-0003,PRD-0002,3,Sur place,Hélène Prévost,Quotidien
+ORD-0400,2025-11-24,EMP-0007,PRD-0004,15,Sur place,Philippe-Tristan Richer,Corporate
+ORD-0401,2025-02-11,EMP-0008,PRD-0003,5,Sur place,Gabrielle Dallaire-Labonté,Quotidien
+ORD-0402,2025-11-19,EMP-0025,PRD-0002,6,À emporter,Vincent Leduc,Quotidien
+ORD-0403,2025-04-11,EMP-0035,PRD-0003,5,À emporter,Alex-Mélanie Trottier,Anniversaire
+ORD-0404,2025-07-02,EMP-0034,PRD-0003,2,Sur place,Chantal Vachon,Quotidien
+ORD-0405,2025-08-30,EMP-0003,PRD-0005,2,Sur place,Béatrice Nguyen-Prévost,Quotidien
+ORD-0406,2025-10-08,EMP-0025,PRD-0005,4,Livraison,Maxime Béland-Vincent,Atelier
+ORD-0407,2025-02-26,EMP-0035,PRD-0003,3,À emporter,Vincent Thibodeau,Quotidien
+ORD-0408,2025-05-19,EMP-0034,PRD-0004,3,Livraison,Amélie Lefebvre,Quotidien
+ORD-0409,2025-01-02,EMP-0008,PRD-0003,5,À emporter,Georges Larouche,Quotidien
+ORD-0410,2025-02-07,EMP-0034,PRD-0003,1,Sur place,Lorraine Larocque,Quotidien
+ORD-0411,2025-10-17,EMP-0025,PRD-0003,2,À emporter,Audrey Labelle-Audet,Quotidien
+ORD-0412,2025-05-12,EMP-0034,PRD-0004,5,À emporter,Cécile Drolet,Quotidien
+ORD-0413,2025-07-21,EMP-0029,PRD-0001,5,Livraison,Jérôme Lavallée,Quotidien
+ORD-0414,2025-01-31,EMP-0007,PRD-0006,5,Livraison,Célina Blanchette,Quotidien
+ORD-0415,2025-11-24,EMP-0032,PRD-0002,3,Sur place,Kevin Guay-Landry,Quotidien
+ORD-0416,2025-02-15,EMP-0029,PRD-0003,5,Sur place,Geneviève Boulanger,Quotidien
+ORD-0417,2025-05-15,EMP-0003,PRD-0001,1,Sur place,Alexis St-Laurent,Quotidien
+ORD-0418,2025-07-25,EMP-0025,PRD-0005,1,À emporter,Maude Lacasse,Quotidien
+ORD-0419,2025-01-26,EMP-0003,PRD-0006,3,À emporter,Sylvie Trottier,Quotidien
+ORD-0420,2025-03-14,EMP-0025,PRD-0005,2,Livraison,Étienne Laplante,Quotidien
+ORD-0421,2025-08-13,EMP-0029,PRD-0005,30,Sur place,Aurore Duchesne,Corporate
+ORD-0422,2025-12-21,EMP-0008,PRD-0003,5,À emporter,Élisabeth-Josette Bernard,Quotidien
+ORD-0423,2025-07-25,EMP-0035,PRD-0001,3,À emporter,Nicole Daigle,Quotidien
+ORD-0424,2025-11-20,EMP-0007,PRD-0002,1,Sur place,Kevin Lemire-Coulombe,Quotidien
+ORD-0425,2025-03-15,EMP-0034,PRD-0006,5,À emporter,Benoît Tremblay,Quotidien
+ORD-0426,2025-04-19,EMP-0025,PRD-0003,3,Sur place,Sarah Marcoux-Piché,Quotidien
+ORD-0427,2025-04-13,EMP-0035,PRD-0002,2,Sur place,Christiane Labonté-Duval,Mariage
+ORD-0428,2025-03-08,EMP-0032,PRD-0004,18,À emporter,Michelle Lafontaine-Racine,Corporate
+ORD-0429,2025-03-19,EMP-0008,PRD-0002,1,Livraison,Philippe Demers,Quotidien
+ORD-0430,2025-05-06,EMP-0008,PRD-0004,3,À emporter,Joséphine Dufour,Quotidien
+ORD-0431,2025-01-22,EMP-0008,PRD-0004,1,Livraison,Chantal Larocque,Quotidien
+ORD-0432,2025-09-14,EMP-0029,PRD-0005,6,À emporter,Paulette Boudreau,Quotidien
+ORD-0433,2025-09-22,EMP-0029,PRD-0006,2,Livraison,Georges Beauregard,Quotidien
+ORD-0434,2025-08-22,EMP-0035,PRD-0005,4,Sur place,Grégoire-Xavier Lamoureux,Quotidien
+ORD-0435,2025-01-13,EMP-0029,PRD-0002,3,Sur place,Élisabeth St-Jean,Quotidien
+ORD-0436,2025-10-04,EMP-0025,PRD-0006,1,Sur place,Pénélope Beaulieu,Atelier
+ORD-0437,2025-05-05,EMP-0007,PRD-0004,5,Livraison,Laurence Laplante,Quotidien
+ORD-0438,2025-03-23,EMP-0007,PRD-0002,4,Sur place,Christelle Allard,Quotidien
+ORD-0439,2025-05-31,EMP-0008,PRD-0006,6,Livraison,Michèle Bélisle-Richard,Quotidien
+ORD-0440,2025-12-19,EMP-0035,PRD-0002,1,Sur place,Mathilde Létourneau,Quotidien
+ORD-0441,2025-12-27,EMP-0007,PRD-0001,5,Sur place,Roger Dufresne,Quotidien
+ORD-0442,2025-03-30,EMP-0025,PRD-0001,4,Livraison,Hugues Fortin,Atelier
+ORD-0443,2025-10-08,EMP-0035,PRD-0002,3,Livraison,Maxime Larocque,Quotidien
+ORD-0444,2025-08-08,EMP-0008,PRD-0005,5,Sur place,Christelle-Hortense Labrecque,Quotidien
+ORD-0445,2025-07-19,EMP-0035,PRD-0003,6,Sur place,Renée Soucy-Gervais,Quotidien
+ORD-0446,2025-03-20,EMP-0008,PRD-0004,7,Livraison,Rosalie Paquin-Larivière,Anniversaire
+ORD-0447,2025-02-12,EMP-0035,PRD-0001,6,Livraison,Richard Provost,Quotidien
+ORD-0448,2025-08-06,EMP-0008,PRD-0001,4,Sur place,Céline Doucet,Quotidien
+ORD-0449,2025-04-11,EMP-0008,PRD-0005,25,Sur place,Alain Bisson,Corporate
+ORD-0450,2025-12-17,EMP-0007,PRD-0003,1,Sur place,Benoît Fillion,Quotidien
+ORD-0451,2025-09-01,EMP-0035,PRD-0001,2,Sur place,Amélie Bolduc,Quotidien
+ORD-0452,2025-11-17,EMP-0032,PRD-0002,4,À emporter,Maryse Guay,Quotidien
+ORD-0453,2025-04-25,EMP-0035,PRD-0003,13,Livraison,Jeannine Bernard-Dionne,Corporate
+ORD-0454,2025-06-17,EMP-0008,PRD-0001,14,Sur place,Sébastien Grenier,Corporate
+ORD-0455,2025-10-03,EMP-0029,PRD-0005,4,Sur place,Roland Poirier-Leclerc,Anniversaire
+ORD-0456,2025-02-22,EMP-0029,PRD-0003,4,Sur place,Océane Lebel,Quotidien
+ORD-0457,2025-12-23,EMP-0029,PRD-0006,3,Sur place,Philippe Poulin,Quotidien
+ORD-0458,2025-03-22,EMP-0032,PRD-0003,44,À emporter,Paulette Savard,Corporate
+ORD-0459,2025-04-05,EMP-0003,PRD-0005,4,Livraison,Raymond Gosselin,Quotidien
+ORD-0460,2025-11-18,EMP-0003,PRD-0002,4,Sur place,Étienne Massé,Atelier
+ORD-0461,2025-03-10,EMP-0032,PRD-0005,5,Livraison,Arthur Roy,Quotidien
+ORD-0462,2025-11-08,EMP-0007,PRD-0003,6,Sur place,Joséphine Turcotte-Lacasse,Quotidien
+ORD-0463,2025-11-24,EMP-0032,PRD-0001,3,À emporter,Mélanie Therrien,Quotidien
+ORD-0464,2025-06-07,EMP-0034,PRD-0004,7,Livraison,Vincent Béland,Anniversaire
+ORD-0465,2025-10-26,EMP-0032,PRD-0004,6,Sur place,Noël Marcotte,Quotidien
+ORD-0466,2025-11-20,EMP-0025,PRD-0006,4,Sur place,Guillaume Deschênes,Quotidien
+ORD-0467,2025-06-09,EMP-0029,PRD-0001,4,Sur place,Arthur-Vincent Desbiens,Quotidien
+ORD-0468,2025-08-10,EMP-0035,PRD-0001,3,Livraison,Catherine Godin,Quotidien
+ORD-0469,2025-07-04,EMP-0029,PRD-0005,5,Sur place,Laurence Lauzon,Quotidien
+ORD-0470,2025-11-14,EMP-0025,PRD-0002,35,À emporter,Emma Roy,Corporate
+ORD-0471,2025-09-08,EMP-0025,PRD-0002,3,Sur place,Timothée Guay,Quotidien
+ORD-0472,2025-07-07,EMP-0032,PRD-0004,2,À emporter,Bernard Lavallée,Quotidien
+ORD-0473,2025-02-22,EMP-0003,PRD-0001,48,Sur place,Mathieu Boivin,Corporate
+ORD-0474,2025-04-19,EMP-0008,PRD-0004,5,Sur place,Gabriel Moreau,Quotidien
+ORD-0475,2025-07-31,EMP-0032,PRD-0003,5,Sur place,William Béland,Quotidien
+ORD-0476,2025-09-11,EMP-0025,PRD-0006,6,À emporter,Gilbert Richard,Quotidien
+ORD-0477,2025-08-23,EMP-0029,PRD-0004,1,Sur place,Édith-Émilie Émond,Anniversaire
+ORD-0478,2025-09-17,EMP-0034,PRD-0002,2,Livraison,Xavier Lemay,Quotidien
+ORD-0479,2025-02-15,EMP-0003,PRD-0002,5,Sur place,Mathilde Piché-Thibault,Quotidien
+ORD-0480,2025-10-02,EMP-0034,PRD-0003,6,Sur place,Françoise Desjardins,Quotidien
+ORD-0481,2025-08-11,EMP-0025,PRD-0003,2,À emporter,Lucy Gendron,Quotidien
+ORD-0482,2025-04-20,EMP-0029,PRD-0002,5,À emporter,Stéphane-Nathan Arsenault,Quotidien
+ORD-0483,2025-11-02,EMP-0034,PRD-0006,3,Sur place,Lorraine Lalonde,Quotidien
+ORD-0484,2025-06-16,EMP-0035,PRD-0004,3,Sur place,Emmanuelle Lessard,Quotidien
+ORD-0485,2025-12-09,EMP-0035,PRD-0005,5,Sur place,Martin Fortier,Quotidien
+ORD-0486,2025-05-23,EMP-0003,PRD-0005,2,À emporter,Antoine Labonté,Quotidien
+ORD-0487,2025-12-06,EMP-0008,PRD-0006,3,À emporter,Noémie Asselin,Quotidien
+ORD-0488,2025-08-14,EMP-0029,PRD-0004,5,Sur place,Céline Germain,Quotidien
+ORD-0489,2025-04-16,EMP-0003,PRD-0006,5,À emporter,Laurie Moreau,Quotidien
+ORD-0490,2025-07-09,EMP-0008,PRD-0006,6,À emporter,Christelle Lavigne,Quotidien
+ORD-0491,2025-01-21,EMP-0034,PRD-0004,36,À emporter,Emmanuel Ouellet,Corporate
+ORD-0492,2025-11-13,EMP-0029,PRD-0001,3,Sur place,Denise St-Jean,Quotidien
+ORD-0493,2025-10-19,EMP-0032,PRD-0006,3,Livraison,Yves Veilleux,Quotidien
+ORD-0494,2025-12-19,EMP-0007,PRD-0003,46,Sur place,Bernard Perreault,Corporate
+ORD-0495,2025-09-17,EMP-0008,PRD-0001,4,Livraison,Alice-Simone Lavigne,Quotidien
+ORD-0496,2025-03-20,EMP-0003,PRD-0002,2,Sur place,Jérôme-Richard Archambault,Anniversaire
+ORD-0497,2025-08-04,EMP-0025,PRD-0001,4,Sur place,Émile Guay,Atelier
+ORD-0498,2025-10-26,EMP-0034,PRD-0003,2,À emporter,Lucy Couture,Quotidien
+ORD-0499,2025-10-01,EMP-0035,PRD-0004,2,À emporter,Victor Lacroix,Quotidien
+ORD-0500,2025-09-06,EMP-0025,PRD-0005,2,Sur place,Gabriel-Nicolas Plourde,Quotidien
+ORD-0501,2025-02-26,EMP-0007,PRD-0006,4,À emporter,Emmanuelle-Martine Houde,Quotidien
+ORD-0502,2025-11-30,EMP-0008,PRD-0001,35,Sur place,Valérie-Jeannine Duguay,Corporate
+ORD-0503,2025-07-31,EMP-0035,PRD-0005,2,Sur place,Sébastien Giroux,Mariage
+ORD-0504,2025-03-14,EMP-0007,PRD-0005,10,À emporter,Édouard-Timothée Simard,Atelier
+ORD-0505,2025-10-03,EMP-0025,PRD-0005,5,À emporter,Henri Boisvert,Atelier
+ORD-0506,2025-02-22,EMP-0025,PRD-0005,4,Sur place,Danielle-Chantal St-Laurent,Quotidien
+ORD-0507,2025-12-03,EMP-0008,PRD-0002,22,Sur place,Alexandra Proulx,Corporate
+ORD-0508,2025-05-15,EMP-0003,PRD-0004,2,Sur place,Nathan Labbé,Quotidien
+ORD-0509,2025-11-03,EMP-0008,PRD-0005,3,À emporter,Stéphanie Fournier,Quotidien
+ORD-0510,2025-04-20,EMP-0025,PRD-0001,22,Livraison,Chantal Lauzon,Corporate
+ORD-0511,2025-01-21,EMP-0007,PRD-0005,6,Livraison,Édouard Caron,Quotidien
+ORD-0512,2025-09-12,EMP-0025,PRD-0003,12,Sur place,Éléonore Rioux,Corporate
+ORD-0513,2025-10-01,EMP-0008,PRD-0001,1,Sur place,Marcel Paquin,Quotidien
+ORD-0514,2025-09-10,EMP-0008,PRD-0004,2,À emporter,Théodore Audet,Anniversaire
+ORD-0515,2025-04-03,EMP-0032,PRD-0001,48,Sur place,Laetitia Rivard,Corporate
+ORD-0516,2025-04-10,EMP-0032,PRD-0002,6,Sur place,Édouard Giguère,Anniversaire
+ORD-0517,2025-05-22,EMP-0025,PRD-0004,48,Sur place,Jessica Tessier,Corporate
+ORD-0518,2025-03-13,EMP-0034,PRD-0004,1,Sur place,Françoise Gervais,Quotidien
+ORD-0519,2025-06-12,EMP-0029,PRD-0006,3,À emporter,Isabelle Lepage,Quotidien
+ORD-0520,2025-04-19,EMP-0025,PRD-0005,3,À emporter,Margaret-Colette Bégin,Quotidien
+ORD-0521,2025-08-27,EMP-0008,PRD-0003,37,Sur place,Christine Prévost,Corporate
+ORD-0522,2025-02-17,EMP-0032,PRD-0005,1,À emporter,Gabrielle Turgeon,Mariage
+ORD-0523,2025-07-26,EMP-0034,PRD-0005,5,À emporter,Martine Pelletier,Quotidien
+ORD-0524,2025-05-12,EMP-0007,PRD-0003,5,À emporter,Colette Fortin,Quotidien
+ORD-0525,2025-06-14,EMP-0025,PRD-0004,4,À emporter,Maxime Nguyen,Quotidien
+ORD-0526,2025-11-21,EMP-0029,PRD-0003,43,Livraison,Laurent-Luc Dubois,Corporate
+ORD-0527,2025-07-07,EMP-0007,PRD-0002,3,À emporter,Olivier Rivard-Piché,Quotidien
+ORD-0528,2025-06-11,EMP-0032,PRD-0006,3,Sur place,François Morin,Quotidien
+ORD-0529,2025-02-25,EMP-0035,PRD-0003,1,Sur place,Théodore Pelletier-Morin,Quotidien
+ORD-0530,2025-02-27,EMP-0007,PRD-0005,4,À emporter,Alexandra Larivière,Quotidien
+ORD-0531,2025-08-13,EMP-0035,PRD-0005,1,À emporter,Antoine Beaudoin,Quotidien
+ORD-0532,2025-05-23,EMP-0034,PRD-0006,9,Sur place,Raymond Moreau,Anniversaire
+ORD-0533,2025-03-07,EMP-0032,PRD-0002,22,Livraison,Audrey Dallaire,Corporate
+ORD-0534,2025-02-11,EMP-0034,PRD-0005,2,À emporter,Jacqueline Morissette,Quotidien
+ORD-0535,2025-05-13,EMP-0035,PRD-0003,2,Livraison,Diane Dufour,Quotidien
+ORD-0536,2025-08-19,EMP-0007,PRD-0003,3,À emporter,Martin-Guy Savoie,Quotidien
+ORD-0537,2025-04-26,EMP-0029,PRD-0004,2,Sur place,Antoine Provencher,Quotidien
+ORD-0538,2025-02-07,EMP-0007,PRD-0004,2,Sur place,Samuel Patel,Quotidien
+ORD-0539,2025-09-17,EMP-0034,PRD-0004,7,Livraison,Caroline Desbiens,Atelier
+ORD-0540,2025-04-19,EMP-0008,PRD-0002,10,Livraison,Henri Massé,Anniversaire
+ORD-0541,2025-10-13,EMP-0008,PRD-0005,1,À emporter,Emmanuel Pelletier,Quotidien
+ORD-0542,2025-12-02,EMP-0008,PRD-0005,1,Livraison,Sylvie Fournier-St-Onge,Quotidien
+ORD-0543,2025-07-04,EMP-0003,PRD-0003,1,À emporter,Anouk Lavoie,Quotidien
+ORD-0544,2025-01-30,EMP-0007,PRD-0001,5,Sur place,Anaïs Archambault,Quotidien
+ORD-0545,2025-05-21,EMP-0032,PRD-0006,4,Sur place,Amélie Beaulieu,Quotidien
+ORD-0546,2025-04-01,EMP-0008,PRD-0002,4,Sur place,Pénélope-Stéphanie Moreau,Anniversaire
+ORD-0547,2025-03-17,EMP-0007,PRD-0003,1,Livraison,Caroline Dubois,Mariage
+ORD-0548,2025-11-07,EMP-0008,PRD-0001,1,À emporter,Renée Roberge-Lauzon,Quotidien
+ORD-0549,2025-12-11,EMP-0003,PRD-0001,3,À emporter,Mathilde Marchand,Quotidien
+ORD-0550,2025-11-26,EMP-0029,PRD-0001,5,Sur place,Thérèse Paquin,Atelier
+ORD-0551,2025-10-07,EMP-0035,PRD-0006,5,Sur place,Françoise Drolet,Quotidien
+ORD-0552,2025-10-03,EMP-0003,PRD-0002,1,Sur place,Yves Bédard,Quotidien
+ORD-0553,2025-02-24,EMP-0008,PRD-0004,15,Livraison,Philippe Bisson,Corporate
+ORD-0554,2025-10-24,EMP-0003,PRD-0002,2,À emporter,Josette Thibault,Quotidien
+ORD-0555,2025-09-11,EMP-0032,PRD-0001,4,Livraison,Xavier Lapierre,Quotidien
+ORD-0556,2025-09-16,EMP-0034,PRD-0004,41,À emporter,Michelle-Christiane Dufour,Corporate
+ORD-0557,2025-04-06,EMP-0003,PRD-0004,4,Sur place,Thérèse Durand,Quotidien
+ORD-0558,2025-07-22,EMP-0025,PRD-0006,2,À emporter,Laurie Cormier,Mariage
+ORD-0559,2025-11-03,EMP-0034,PRD-0005,6,Sur place,Gabrielle Archambault,Quotidien
+ORD-0560,2025-01-23,EMP-0035,PRD-0006,3,Sur place,Raymond Langlois,Quotidien
+ORD-0561,2025-12-08,EMP-0003,PRD-0004,4,Sur place,Frédérique Morin-Béland,Quotidien
+ORD-0562,2025-10-31,EMP-0008,PRD-0006,4,À emporter,Roger Benoît-Plourde,Quotidien
+ORD-0563,2025-03-08,EMP-0007,PRD-0003,2,Sur place,Josette Dumas,Quotidien
+ORD-0564,2025-08-12,EMP-0025,PRD-0004,6,Livraison,Sarah-Alice Lachapelle,Quotidien
+ORD-0565,2025-12-06,EMP-0025,PRD-0003,18,À emporter,Vincent Labelle-Desrochers,Corporate
+ORD-0566,2025-07-03,EMP-0029,PRD-0002,39,À emporter,Karine Côté,Corporate
+ORD-0567,2025-01-28,EMP-0035,PRD-0003,5,À emporter,Gérard Dion,Quotidien
+ORD-0568,2025-01-02,EMP-0034,PRD-0004,1,À emporter,Marie Villeneuve,Quotidien
+ORD-0569,2025-10-01,EMP-0035,PRD-0001,6,Sur place,Gabriel-Jules Poulin,Quotidien
+ORD-0570,2025-12-29,EMP-0032,PRD-0001,6,Livraison,Cécile Létourneau,Quotidien
+ORD-0571,2025-11-14,EMP-0003,PRD-0004,2,À emporter,Benjamin Bédard,Quotidien
+ORD-0572,2025-05-20,EMP-0025,PRD-0003,10,Livraison,Aurélie Hamel,Atelier
+ORD-0573,2025-11-12,EMP-0032,PRD-0006,2,Sur place,Océane Poulin,Atelier
+ORD-0574,2025-09-07,EMP-0034,PRD-0004,5,Sur place,Roger Blais,Quotidien
+ORD-0575,2025-10-19,EMP-0003,PRD-0003,7,Livraison,Nathalie Cormier,Atelier
+ORD-0576,2025-12-23,EMP-0032,PRD-0002,1,À emporter,Marguerite Fréchette,Quotidien
+ORD-0577,2025-07-19,EMP-0003,PRD-0002,42,Livraison,Raymond Lussier-Lavallée,Corporate
+ORD-0578,2025-12-07,EMP-0007,PRD-0004,4,Livraison,Louise Lavoie,Quotidien
+ORD-0579,2025-07-03,EMP-0032,PRD-0006,2,Sur place,William Rodrigue,Mariage
+ORD-0580,2025-05-10,EMP-0029,PRD-0004,1,À emporter,Alice Fréchette,Mariage
+ORD-0581,2025-06-03,EMP-0025,PRD-0006,38,Sur place,Marguerite Giroux,Corporate
+ORD-0582,2025-09-18,EMP-0034,PRD-0006,6,À emporter,Renée Bertrand,Quotidien
+ORD-0583,2025-01-25,EMP-0003,PRD-0006,16,Livraison,Éléonore Noël,Corporate
+ORD-0584,2025-07-05,EMP-0034,PRD-0001,4,Sur place,Colette-Caroline Benoît,Quotidien
+ORD-0585,2025-10-22,EMP-0035,PRD-0005,23,À emporter,Émilie Lavigne,Corporate
+ORD-0586,2025-12-27,EMP-0034,PRD-0002,5,À emporter,Philippe Thériault,Quotidien
+ORD-0587,2025-03-01,EMP-0003,PRD-0004,2,Livraison,Yves Marchand,Quotidien
+ORD-0588,2025-01-24,EMP-0008,PRD-0001,3,Livraison,Éléonore Bernard,Anniversaire
+ORD-0589,2025-04-26,EMP-0035,PRD-0003,4,À emporter,Jonathan-Rémy Drolet,Quotidien
+ORD-0590,2025-12-14,EMP-0034,PRD-0002,2,À emporter,Gabrielle Gauthier,Quotidien
+ORD-0591,2025-04-06,EMP-0029,PRD-0006,2,À emporter,François Poirier,Quotidien
+ORD-0592,2025-03-31,EMP-0025,PRD-0005,3,Sur place,Henriette Girard,Quotidien
+ORD-0593,2025-06-16,EMP-0025,PRD-0005,6,Sur place,Raymond Giroux,Quotidien
+ORD-0594,2025-11-30,EMP-0032,PRD-0004,6,Livraison,Jeanne Gravel,Quotidien
+ORD-0595,2025-09-20,EMP-0032,PRD-0005,2,Sur place,Rémy Cloutier,Quotidien
+ORD-0596,2025-10-18,EMP-0032,PRD-0005,3,Livraison,Pierre Proulx,Quotidien
+ORD-0597,2025-05-19,EMP-0025,PRD-0004,7,Sur place,Guillaume Lepage,Atelier
+ORD-0598,2025-07-26,EMP-0008,PRD-0006,1,À emporter,Élisabeth Guay,Quotidien
+ORD-0599,2025-11-18,EMP-0029,PRD-0004,1,Livraison,Lorraine-Marcelle St-Onge,Quotidien
+ORD-0600,2025-06-05,EMP-0007,PRD-0002,36,Sur place,Dorothée Daigle,Corporate
+ORD-0601,2025-03-12,EMP-0007,PRD-0002,6,Sur place,Marie-Jeannine Dufresne,Quotidien
+ORD-0602,2025-05-22,EMP-0035,PRD-0004,3,À emporter,Véronique Trépanier,Quotidien
+ORD-0603,2025-10-08,EMP-0029,PRD-0004,1,Sur place,Vincent-Marcel Lauzon,Quotidien
+ORD-0604,2025-07-27,EMP-0003,PRD-0006,4,Sur place,Bertrand Drouin-St-Onge,Quotidien
+ORD-0605,2025-08-01,EMP-0008,PRD-0006,1,À emporter,Éric Charbonneau,Quotidien
+ORD-0606,2025-10-24,EMP-0029,PRD-0001,5,Sur place,Martine Lalonde,Quotidien
+ORD-0607,2025-10-12,EMP-0032,PRD-0004,6,Livraison,Marc Marcoux-Lamontagne,Quotidien
+ORD-0608,2025-08-12,EMP-0008,PRD-0006,5,Sur place,Nicole Beaudoin,Quotidien
+ORD-0609,2025-07-30,EMP-0025,PRD-0002,3,Livraison,Daniel Poulin,Quotidien
+ORD-0610,2025-12-27,EMP-0035,PRD-0001,5,Sur place,Victor Brisson,Quotidien
+ORD-0611,2025-07-04,EMP-0008,PRD-0004,5,Sur place,Jeanne Marcoux,Quotidien
+ORD-0612,2025-12-01,EMP-0032,PRD-0005,7,Livraison,Charlotte Forget,Anniversaire
+ORD-0613,2025-03-30,EMP-0035,PRD-0001,6,À emporter,Margot-Céline Dupuis,Atelier
+ORD-0614,2025-05-17,EMP-0003,PRD-0003,3,À emporter,Élisabeth Gélinas,Quotidien
+ORD-0615,2025-05-14,EMP-0008,PRD-0004,2,Sur place,Robert Jacques,Quotidien
+ORD-0616,2025-07-21,EMP-0035,PRD-0002,6,Livraison,Lorraine Dion,Quotidien
+ORD-0617,2025-10-24,EMP-0025,PRD-0004,5,Sur place,Hugues Thériault,Quotidien
+ORD-0618,2025-03-19,EMP-0003,PRD-0001,2,Sur place,Michelle Fillion,Quotidien
+ORD-0619,2025-08-24,EMP-0008,PRD-0003,1,À emporter,Catherine Bédard,Quotidien
+ORD-0620,2025-03-16,EMP-0008,PRD-0006,3,À emporter,Pauline Ménard,Quotidien
+ORD-0621,2025-07-14,EMP-0029,PRD-0001,3,Sur place,Martin Audet,Quotidien
+ORD-0622,2025-09-01,EMP-0035,PRD-0003,48,Sur place,Gabriel Labelle,Corporate
+ORD-0623,2025-07-14,EMP-0032,PRD-0002,3,Sur place,Martin Croteau,Anniversaire
+ORD-0624,2025-06-13,EMP-0034,PRD-0005,4,Sur place,Jules Daigle,Quotidien
+ORD-0625,2025-11-20,EMP-0008,PRD-0003,1,Sur place,Éléonore Nadeau-Rousseau,Quotidien
+ORD-0626,2025-09-12,EMP-0032,PRD-0004,10,À emporter,Éric Asselin,Atelier
+ORD-0627,2025-01-07,EMP-0007,PRD-0001,13,Sur place,Sébastien Bernier,Corporate
+ORD-0628,2025-07-24,EMP-0029,PRD-0005,19,À emporter,Renée-Colette Breton,Corporate
+ORD-0629,2025-08-04,EMP-0003,PRD-0003,6,Livraison,Marcelle Beauchamp,Quotidien
+ORD-0630,2025-07-07,EMP-0034,PRD-0006,6,Sur place,Gérard Doucet,Quotidien
+ORD-0631,2025-03-02,EMP-0025,PRD-0003,2,Sur place,Astrid-Véronique Bisson,Quotidien
+ORD-0632,2025-03-23,EMP-0008,PRD-0005,8,Sur place,Maryse-Nathalie Hamel,Atelier
+ORD-0633,2025-04-22,EMP-0032,PRD-0005,23,Sur place,Andrée Côté,Corporate
+ORD-0634,2025-05-22,EMP-0025,PRD-0004,5,Sur place,Aurélie Duchesne-Martineau,Quotidien
+ORD-0635,2025-05-04,EMP-0008,PRD-0001,1,À emporter,Denis Couture,Quotidien
+ORD-0636,2025-05-22,EMP-0035,PRD-0006,5,À emporter,Gérard Lussier-Bolduc,Quotidien
+ORD-0637,2025-11-09,EMP-0029,PRD-0005,3,À emporter,Lucas Giroux,Quotidien
+ORD-0638,2025-01-13,EMP-0029,PRD-0001,4,Sur place,Bertrand Beauregard,Quotidien
+ORD-0639,2025-10-22,EMP-0035,PRD-0003,27,Livraison,Maurice Champagne,Corporate
+ORD-0640,2025-11-11,EMP-0003,PRD-0002,39,À emporter,Emma Duguay,Corporate
+ORD-0641,2025-05-21,EMP-0025,PRD-0005,35,Sur place,Charlotte Provencher-Fillion,Corporate
+ORD-0642,2025-06-13,EMP-0008,PRD-0001,2,Sur place,Martin Thériault,Quotidien
+ORD-0643,2025-12-06,EMP-0003,PRD-0002,4,Sur place,Rémy Lemieux,Quotidien
+ORD-0644,2025-04-21,EMP-0008,PRD-0006,6,Sur place,Georges Gravel,Quotidien
+ORD-0645,2025-09-08,EMP-0008,PRD-0001,2,À emporter,Alexis Fournier,Quotidien
+ORD-0646,2025-09-22,EMP-0007,PRD-0004,7,Sur place,Victor Landry,Atelier
+ORD-0647,2025-06-30,EMP-0035,PRD-0006,1,Sur place,Vincent Lafontaine,Quotidien
+ORD-0648,2025-03-22,EMP-0029,PRD-0006,4,À emporter,Henriette Vézina,Quotidien
+ORD-0649,2025-09-29,EMP-0029,PRD-0002,2,Sur place,Manon Turgeon,Quotidien
+ORD-0650,2025-01-31,EMP-0029,PRD-0004,5,Sur place,Gérard-Édouard Gauthier,Quotidien
+ORD-0651,2025-09-20,EMP-0007,PRD-0002,1,Sur place,Monique Paré-Morissette,Quotidien
+ORD-0652,2025-11-22,EMP-0025,PRD-0001,2,Livraison,Cécile Germain,Mariage
+ORD-0653,2025-11-22,EMP-0007,PRD-0005,47,Sur place,Emma Boudreau,Corporate
+ORD-0654,2025-01-14,EMP-0034,PRD-0004,6,À emporter,Véronique Renaud,Quotidien
+ORD-0655,2025-05-24,EMP-0003,PRD-0002,3,Sur place,Laurence Vézina,Quotidien
+ORD-0656,2025-04-24,EMP-0032,PRD-0005,6,Sur place,Jessica Gosselin,Quotidien
+ORD-0657,2025-04-26,EMP-0029,PRD-0001,27,À emporter,Laurence Beauregard,Corporate
+ORD-0658,2025-06-11,EMP-0003,PRD-0001,3,Sur place,Gilbert Forget,Quotidien
+ORD-0659,2025-04-08,EMP-0032,PRD-0005,5,Sur place,Gabriel-Thomas Dubé,Quotidien
+ORD-0660,2025-02-02,EMP-0029,PRD-0002,24,Livraison,Agnès Duguay,Corporate
+ORD-0661,2025-04-06,EMP-0008,PRD-0002,22,Sur place,Sébastien Leduc-Guillemette,Corporate
+ORD-0662,2025-04-23,EMP-0007,PRD-0006,45,Livraison,Camille Gélinas-Bédard,Corporate
+ORD-0663,2025-01-23,EMP-0034,PRD-0005,6,À emporter,Guy Plante,Quotidien
+ORD-0664,2025-12-16,EMP-0008,PRD-0006,6,À emporter,Samuel Nguyen,Anniversaire
+ORD-0665,2025-02-02,EMP-0029,PRD-0006,6,Livraison,Joséphine Renaud,Quotidien
+ORD-0666,2025-07-29,EMP-0029,PRD-0002,9,Sur place,Amélie-Josette Beaudoin,Anniversaire
+ORD-0667,2025-09-22,EMP-0003,PRD-0005,4,Sur place,Julie Deschênes,Quotidien
+ORD-0668,2025-03-24,EMP-0035,PRD-0003,5,À emporter,Laetitia-Édith Bolduc,Quotidien
+ORD-0669,2025-10-23,EMP-0008,PRD-0005,5,Sur place,Paul-Benjamin Beaulieu,Quotidien
+ORD-0670,2025-02-02,EMP-0008,PRD-0005,4,Sur place,David Trottier-Nguyen,Quotidien
+ORD-0671,2025-10-09,EMP-0025,PRD-0005,6,Sur place,Daniel-André Arsenault,Quotidien
+ORD-0672,2025-04-23,EMP-0003,PRD-0002,5,À emporter,André Prévost,Quotidien
+ORD-0673,2025-01-08,EMP-0025,PRD-0003,1,Livraison,Georges Bernier-Bégin,Mariage
+ORD-0674,2025-06-09,EMP-0003,PRD-0006,20,Livraison,Raphaël Lessard,Corporate
+ORD-0675,2025-12-17,EMP-0025,PRD-0004,4,À emporter,Cécile Richer,Quotidien
+ORD-0676,2025-06-23,EMP-0029,PRD-0003,3,À emporter,Nathan Allard,Quotidien
+ORD-0677,2025-07-24,EMP-0029,PRD-0001,4,À emporter,André Sirois,Quotidien
+ORD-0678,2025-06-16,EMP-0035,PRD-0003,26,Livraison,Hortense Séguin,Corporate
+ORD-0679,2025-12-12,EMP-0025,PRD-0002,5,Sur place,Élisabeth Boucher,Quotidien
+ORD-0680,2025-03-16,EMP-0032,PRD-0005,5,Livraison,Philippe Girard,Quotidien
+ORD-0681,2025-04-29,EMP-0007,PRD-0004,6,Sur place,Nathalie Émond,Atelier
+ORD-0682,2025-03-23,EMP-0008,PRD-0005,2,Sur place,Alexandra Dupuis,Quotidien
+ORD-0683,2025-06-28,EMP-0003,PRD-0003,5,À emporter,Georges Gauthier,Quotidien
+ORD-0684,2025-10-18,EMP-0003,PRD-0002,1,Sur place,Alexandra Daigle,Quotidien
+ORD-0685,2025-03-12,EMP-0003,PRD-0001,5,Livraison,Georges Doucet,Quotidien
+ORD-0686,2025-02-04,EMP-0003,PRD-0001,20,Livraison,William Cloutier,Corporate
+ORD-0687,2025-08-30,EMP-0029,PRD-0001,2,À emporter,Bernard Lachapelle,Quotidien
+ORD-0688,2025-10-21,EMP-0034,PRD-0004,8,À emporter,Éric Caron-Fillion,Anniversaire
+ORD-0689,2025-08-06,EMP-0007,PRD-0005,1,Livraison,Stéphane Tremblay-Bernard,Quotidien
+ORD-0690,2025-12-25,EMP-0035,PRD-0006,6,Sur place,Christiane Desjardins,Quotidien
+ORD-0691,2025-01-09,EMP-0034,PRD-0005,2,Livraison,Tristan Duchesne,Quotidien
+ORD-0692,2025-09-26,EMP-0025,PRD-0006,1,À emporter,Émile Mercier,Anniversaire
+ORD-0693,2025-06-03,EMP-0032,PRD-0003,1,Sur place,Victor Pouliot-Forget,Quotidien
+ORD-0694,2025-11-10,EMP-0008,PRD-0006,1,Livraison,Thomas Dupuis,Atelier
+ORD-0695,2025-11-13,EMP-0034,PRD-0004,6,À emporter,Noël Dufresne,Quotidien
+ORD-0696,2025-11-11,EMP-0034,PRD-0002,6,À emporter,Marc Tremblay-Tanguay,Quotidien
+ORD-0697,2025-02-11,EMP-0032,PRD-0005,6,Sur place,Pauline Thibault-Morin,Quotidien
+ORD-0698,2025-07-19,EMP-0029,PRD-0001,3,Sur place,Philippe Villeneuve,Quotidien
+ORD-0699,2025-11-24,EMP-0035,PRD-0004,2,Sur place,Élodie Gilbert,Quotidien
+ORD-0700,2025-01-17,EMP-0007,PRD-0001,3,À emporter,Camille Boivin,Quotidien
+ORD-0701,2025-08-31,EMP-0032,PRD-0006,6,À emporter,Maurice Gauthier,Quotidien
+ORD-0702,2025-03-24,EMP-0029,PRD-0006,3,Livraison,Marc Duchesne,Quotidien
+ORD-0703,2025-02-24,EMP-0007,PRD-0005,3,À emporter,Anouk Hébert,Quotidien
+ORD-0704,2025-12-13,EMP-0008,PRD-0001,2,Sur place,Bertrand Patel,Quotidien
+ORD-0705,2025-02-06,EMP-0035,PRD-0002,9,À emporter,Gilbert Leclerc,Atelier
+ORD-0706,2025-07-07,EMP-0034,PRD-0006,2,Sur place,Henri Parent,Mariage
+ORD-0707,2025-12-09,EMP-0003,PRD-0006,4,Livraison,Christiane Duguay,Quotidien
+ORD-0708,2025-05-22,EMP-0007,PRD-0003,5,Sur place,Virginie Bélanger,Quotidien
+ORD-0709,2025-04-14,EMP-0025,PRD-0004,8,Sur place,Audrey Dallaire,Atelier
+ORD-0710,2025-07-17,EMP-0032,PRD-0003,39,Sur place,Alexis Bolduc,Corporate
+ORD-0711,2025-05-14,EMP-0025,PRD-0006,4,Livraison,Stéphanie Veilleux,Quotidien
+ORD-0712,2025-11-21,EMP-0034,PRD-0002,2,Sur place,Sarah-Marcelle Pouliot,Quotidien
+ORD-0713,2025-12-10,EMP-0034,PRD-0006,6,Sur place,Paulette Carrier,Quotidien
+ORD-0714,2025-02-12,EMP-0035,PRD-0005,1,À emporter,Julie Beaudoin,Quotidien
+ORD-0715,2025-03-30,EMP-0008,PRD-0006,2,Livraison,Gérard Benoît,Quotidien
+ORD-0716,2025-03-27,EMP-0003,PRD-0005,1,Sur place,Laurent Gilbert,Atelier
+ORD-0717,2025-02-08,EMP-0029,PRD-0002,10,Sur place,Benoît Houle-Fréchette,Anniversaire
+ORD-0718,2025-02-23,EMP-0035,PRD-0004,6,À emporter,Yves-Charles Simard,Quotidien
+ORD-0719,2025-02-16,EMP-0029,PRD-0001,2,Sur place,Charlotte Guay-Béland,Quotidien
+ORD-0720,2025-02-24,EMP-0029,PRD-0005,3,Sur place,Nathan Michaud,Quotidien
+ORD-0721,2025-11-20,EMP-0032,PRD-0003,3,Sur place,Patricia Savard,Quotidien
+ORD-0722,2025-07-04,EMP-0008,PRD-0004,45,Sur place,Joséphine Lachance,Corporate
+ORD-0723,2025-07-08,EMP-0008,PRD-0006,5,Sur place,Laurie Lauzon,Quotidien
+ORD-0724,2025-11-27,EMP-0003,PRD-0001,5,Sur place,Éric-Jacques Gauthier,Quotidien
+ORD-0725,2025-04-26,EMP-0034,PRD-0001,4,À emporter,Nicolas Pépin,Quotidien
+ORD-0726,2025-10-10,EMP-0029,PRD-0001,5,Sur place,Denis Giguère,Quotidien
+ORD-0727,2025-06-30,EMP-0032,PRD-0003,41,À emporter,Claire Beaulieu,Corporate
+ORD-0728,2025-12-24,EMP-0029,PRD-0006,3,Sur place,Laurie Provencher,Quotidien
+ORD-0729,2025-10-10,EMP-0032,PRD-0003,1,Livraison,Charles Bélanger,Quotidien
+ORD-0730,2025-11-11,EMP-0035,PRD-0004,1,Livraison,Étienne St-Laurent-Fournier,Anniversaire
+ORD-0731,2025-10-06,EMP-0035,PRD-0005,2,À emporter,Jonathan Provencher,Atelier
+ORD-0732,2025-10-07,EMP-0007,PRD-0002,3,Sur place,Louise Landry,Quotidien
+ORD-0733,2025-08-23,EMP-0034,PRD-0003,3,Sur place,René Turgeon,Quotidien
+ORD-0734,2025-12-02,EMP-0029,PRD-0006,5,Livraison,Jessica Savard,Quotidien
+ORD-0735,2025-12-25,EMP-0025,PRD-0001,5,À emporter,Emmanuel Dupuis,Quotidien
+ORD-0736,2025-05-20,EMP-0007,PRD-0003,5,À emporter,Alexis Martin-Dupuis,Quotidien
+ORD-0737,2025-06-07,EMP-0029,PRD-0001,3,Sur place,Marianne Desbiens,Quotidien
+ORD-0738,2025-12-28,EMP-0008,PRD-0006,8,Sur place,Andrée Bertrand-Bergeron,Atelier
+ORD-0739,2025-01-13,EMP-0008,PRD-0001,4,Sur place,Marcel-Raymond Larouche,Atelier
+ORD-0740,2025-01-15,EMP-0003,PRD-0002,2,Sur place,Hortense Vachon,Quotidien
+ORD-0741,2025-08-23,EMP-0003,PRD-0005,19,À emporter,Nathan Denis,Corporate
+ORD-0742,2025-02-03,EMP-0007,PRD-0004,2,À emporter,Claire Bisson,Quotidien
+ORD-0743,2025-09-05,EMP-0029,PRD-0001,4,Livraison,Xavier Thibodeau,Quotidien
+ORD-0744,2025-02-06,EMP-0025,PRD-0006,2,À emporter,Juliette Gervais,Quotidien
+ORD-0745,2025-09-17,EMP-0003,PRD-0001,5,Sur place,Stéphane Benoît,Quotidien
+ORD-0746,2025-04-26,EMP-0034,PRD-0002,4,À emporter,Jacqueline Trottier,Quotidien
+ORD-0747,2025-06-14,EMP-0032,PRD-0002,6,Sur place,Monique Lachance,Anniversaire
+ORD-0748,2025-03-25,EMP-0035,PRD-0001,2,Livraison,Sophie Bélanger,Quotidien
+ORD-0749,2025-01-16,EMP-0032,PRD-0002,1,Sur place,Christine Lussier,Quotidien
+ORD-0750,2025-11-05,EMP-0035,PRD-0004,20,À emporter,Emma Chouinard,Corporate
+ORD-0751,2025-07-06,EMP-0029,PRD-0001,5,À emporter,Julie Michaud,Quotidien
+ORD-0752,2025-10-11,EMP-0029,PRD-0004,46,À emporter,Olivier Dionne,Corporate
+ORD-0753,2025-06-22,EMP-0007,PRD-0002,1,À emporter,Victor Houle,Quotidien
+ORD-0754,2025-11-14,EMP-0003,PRD-0003,6,Sur place,Margot-Paulette Bélanger,Quotidien
+ORD-0755,2025-04-18,EMP-0034,PRD-0003,3,Sur place,Alex Bédard,Quotidien
+ORD-0756,2025-12-25,EMP-0007,PRD-0004,38,Sur place,Virginie-Odette Lamontagne,Corporate
+ORD-0757,2025-12-20,EMP-0034,PRD-0001,6,Livraison,Patrick Massé,Quotidien
+ORD-0758,2025-10-08,EMP-0032,PRD-0006,3,À emporter,Anaïs Paré,Quotidien
+ORD-0759,2025-12-10,EMP-0007,PRD-0001,4,Sur place,Samuel Desrochers,Quotidien
+ORD-0760,2025-04-01,EMP-0032,PRD-0003,2,À emporter,Patricia Gauthier,Quotidien
+ORD-0761,2025-12-24,EMP-0035,PRD-0002,8,À emporter,Frédérique Dubois,Anniversaire
+ORD-0762,2025-09-05,EMP-0008,PRD-0005,6,À emporter,Jules Chouinard,Quotidien
+ORD-0763,2025-08-09,EMP-0029,PRD-0002,40,À emporter,Mélanie Prévost,Corporate
+ORD-0764,2025-12-26,EMP-0029,PRD-0006,3,Sur place,Sophie Parent,Quotidien
+ORD-0765,2025-07-11,EMP-0008,PRD-0006,6,Sur place,Roland Lepage,Quotidien
+ORD-0766,2025-08-21,EMP-0034,PRD-0006,6,Sur place,Françoise Benoît,Quotidien
+ORD-0767,2025-07-12,EMP-0008,PRD-0001,3,Sur place,William Fillion,Quotidien
+ORD-0768,2025-04-10,EMP-0035,PRD-0003,1,À emporter,Nathan Lacasse,Quotidien
+ORD-0769,2025-11-21,EMP-0032,PRD-0005,6,À emporter,Richard Paquin,Quotidien
+ORD-0770,2025-10-14,EMP-0003,PRD-0002,5,Sur place,Raphaël Leduc,Quotidien
+ORD-0771,2025-10-06,EMP-0003,PRD-0001,1,Sur place,Chantal St-Onge-Bérubé,Quotidien
+ORD-0772,2025-05-23,EMP-0034,PRD-0006,1,À emporter,Marcelle Coulombe,Quotidien
+ORD-0773,2025-03-02,EMP-0029,PRD-0003,2,Livraison,Stéphane Grégoire,Quotidien
+ORD-0774,2025-06-06,EMP-0003,PRD-0003,3,Sur place,Diane Séguin,Quotidien
+ORD-0775,2025-10-12,EMP-0025,PRD-0004,1,À emporter,Sophie Martineau,Quotidien
+ORD-0776,2025-01-18,EMP-0003,PRD-0005,18,Sur place,Frédéric Rousseau,Corporate
+ORD-0777,2025-05-08,EMP-0029,PRD-0004,6,Livraison,Nicolas Boutin,Quotidien
+ORD-0778,2025-09-12,EMP-0034,PRD-0003,1,Livraison,Benjamin Martin,Quotidien
+ORD-0779,2025-10-23,EMP-0029,PRD-0001,43,Sur place,Nathalie-Élise Bégin,Corporate
+ORD-0780,2025-06-28,EMP-0034,PRD-0006,1,Sur place,Françoise Soucy-Morissette,Quotidien
+ORD-0781,2025-10-27,EMP-0003,PRD-0002,6,À emporter,Luc-Marcel Fontaine,Quotidien
+ORD-0782,2025-09-11,EMP-0025,PRD-0006,1,À emporter,Virginie-Françoise Brassard,Atelier
+ORD-0783,2025-01-15,EMP-0029,PRD-0003,5,Sur place,Anouk Trépanier,Quotidien
+ORD-0784,2025-03-30,EMP-0008,PRD-0003,5,Sur place,Margot Bernard,Quotidien
+ORD-0785,2025-08-01,EMP-0025,PRD-0002,14,Sur place,Jules Daigle-Lévesque,Corporate
+ORD-0786,2025-05-05,EMP-0003,PRD-0002,16,À emporter,Marguerite Pépin,Corporate
+ORD-0787,2025-08-13,EMP-0035,PRD-0003,32,Livraison,François Villeneuve,Corporate
+ORD-0788,2025-07-23,EMP-0029,PRD-0004,3,Sur place,Joséphine Dion,Anniversaire
+ORD-0789,2025-04-15,EMP-0032,PRD-0005,4,Sur place,Brigitte Provost,Quotidien
+ORD-0790,2025-11-26,EMP-0034,PRD-0005,10,Sur place,Gilles Bernier-St-Laurent,Anniversaire
+ORD-0791,2025-10-01,EMP-0003,PRD-0006,2,Sur place,Paul Daigle,Quotidien
+ORD-0792,2025-06-01,EMP-0008,PRD-0002,8,Sur place,Odette Labelle,Atelier
+ORD-0793,2025-02-19,EMP-0025,PRD-0002,4,Sur place,Olivia Plourde-Lambert,Quotidien
+ORD-0794,2025-02-04,EMP-0032,PRD-0003,17,À emporter,Bertrand-Marc Durand,Corporate
+ORD-0795,2025-10-06,EMP-0003,PRD-0001,13,Sur place,Dorothée St-Laurent,Corporate
+ORD-0796,2025-08-29,EMP-0008,PRD-0005,6,À emporter,Lucas Gervais-Labrecque,Quotidien
+ORD-0797,2025-08-13,EMP-0029,PRD-0002,10,À emporter,Chantal Deschênes,Anniversaire
+ORD-0798,2025-08-12,EMP-0034,PRD-0001,3,Livraison,Tristan St-Jean,Quotidien
+ORD-0799,2025-01-01,EMP-0007,PRD-0003,6,Livraison,Gilles Houle,Quotidien
+ORD-0800,2025-12-27,EMP-0008,PRD-0003,2,Sur place,Émile Lebel,Quotidien
+ORD-0801,2025-08-29,EMP-0008,PRD-0001,7,Sur place,Édith Champagne,Atelier
+ORD-0802,2025-12-04,EMP-0034,PRD-0002,6,Sur place,Zacharie Champagne,Quotidien
+ORD-0803,2025-04-10,EMP-0034,PRD-0006,2,À emporter,Samuel Auger,Quotidien
+ORD-0804,2025-01-05,EMP-0034,PRD-0004,1,À emporter,René-Guy Plourde,Quotidien
+ORD-0805,2025-11-15,EMP-0008,PRD-0004,4,À emporter,Gilles Allard,Quotidien
+ORD-0806,2025-11-05,EMP-0025,PRD-0001,6,Sur place,Colette Soucy,Quotidien
+ORD-0807,2025-08-01,EMP-0008,PRD-0005,1,Livraison,Thérèse-Sophie Dumas,Quotidien
+ORD-0808,2025-06-30,EMP-0032,PRD-0002,44,Sur place,Édouard-Nathan Paradis,Corporate
+ORD-0809,2025-06-28,EMP-0032,PRD-0006,1,À emporter,Aurore Villeneuve,Mariage
+ORD-0810,2025-05-03,EMP-0035,PRD-0002,1,À emporter,Patrick-Charles Boucher,Quotidien
+ORD-0811,2025-10-29,EMP-0034,PRD-0006,5,Sur place,Louise Boudreau,Anniversaire
+ORD-0812,2025-11-22,EMP-0035,PRD-0006,4,Sur place,Édith-Julie Chouinard,Quotidien
+ORD-0813,2025-07-02,EMP-0034,PRD-0005,1,Sur place,Philippe Turcotte,Quotidien
+ORD-0814,2025-09-02,EMP-0007,PRD-0004,3,À emporter,Xavier Pelletier,Quotidien
+ORD-0815,2025-05-02,EMP-0008,PRD-0005,5,Sur place,Anne Lessard,Atelier
+ORD-0816,2025-12-02,EMP-0032,PRD-0004,3,À emporter,Victor Provencher,Anniversaire
+ORD-0817,2025-09-17,EMP-0025,PRD-0005,6,Sur place,Maxime Breton,Atelier
+ORD-0818,2025-03-27,EMP-0008,PRD-0001,6,Sur place,Gabrielle Renaud,Quotidien
+ORD-0819,2025-03-17,EMP-0025,PRD-0002,6,À emporter,Gilles Morin,Quotidien
+ORD-0820,2025-12-20,EMP-0035,PRD-0005,5,À emporter,Éric Trottier,Quotidien
+ORD-0821,2025-01-28,EMP-0008,PRD-0004,24,À emporter,Margaret Ménard,Corporate
+ORD-0822,2025-01-09,EMP-0008,PRD-0006,2,Sur place,Hugues Duguay,Quotidien
+ORD-0823,2025-11-07,EMP-0003,PRD-0006,4,Sur place,Gérard Ouellet,Quotidien
+ORD-0824,2025-07-22,EMP-0032,PRD-0002,2,À emporter,Sébastien Bergeron,Quotidien
+ORD-0825,2025-06-18,EMP-0029,PRD-0004,3,Livraison,Emmanuel Lafontaine,Quotidien
+ORD-0826,2025-11-02,EMP-0025,PRD-0001,3,À emporter,Geneviève Leclerc-Labelle,Quotidien
+ORD-0827,2025-03-18,EMP-0029,PRD-0003,2,À emporter,Guillaume Larivière,Quotidien
+ORD-0828,2025-11-04,EMP-0029,PRD-0004,4,Sur place,Amélie Dubé,Quotidien
+ORD-0829,2025-03-27,EMP-0025,PRD-0005,2,À emporter,Benjamin Pilon,Quotidien
+ORD-0830,2025-12-30,EMP-0032,PRD-0002,5,Sur place,Jeanne Tanguay,Atelier
+ORD-0831,2025-09-06,EMP-0035,PRD-0006,1,Sur place,André-Éric Gagné,Quotidien
+ORD-0832,2025-11-16,EMP-0029,PRD-0002,4,À emporter,Maurice Lefebvre,Quotidien
+ORD-0833,2025-05-20,EMP-0003,PRD-0003,6,Sur place,Lucy-Jeanne Couture,Quotidien
+ORD-0834,2025-12-21,EMP-0008,PRD-0002,2,Sur place,Élise Fortier-Boulanger,Quotidien
+ORD-0835,2025-09-10,EMP-0035,PRD-0001,4,À emporter,Constance Charron,Quotidien
+ORD-0836,2025-05-05,EMP-0032,PRD-0001,2,À emporter,Simone Grégoire,Quotidien
+ORD-0837,2025-11-28,EMP-0035,PRD-0001,2,Livraison,André Roy,Quotidien
+ORD-0838,2025-04-15,EMP-0034,PRD-0004,2,Sur place,Patricia Giroux,Atelier
+ORD-0839,2025-03-17,EMP-0025,PRD-0004,22,Sur place,Clémence Robert,Corporate
+ORD-0840,2025-08-01,EMP-0029,PRD-0001,5,Sur place,Maude Beaudoin,Quotidien
+ORD-0841,2025-03-28,EMP-0032,PRD-0006,1,Livraison,Alain Bérubé,Quotidien
+ORD-0842,2025-06-27,EMP-0035,PRD-0003,39,Sur place,Grégoire Tardif,Corporate
+ORD-0843,2025-02-01,EMP-0003,PRD-0006,4,Livraison,Alexis Gagnon-Leduc,Atelier
+ORD-0844,2025-09-22,EMP-0032,PRD-0004,6,Sur place,Théodore-Kevin Lemire,Quotidien
+ORD-0845,2025-02-06,EMP-0008,PRD-0002,6,À emporter,Guillaume Gagnon,Quotidien
+ORD-0846,2025-04-20,EMP-0003,PRD-0005,1,À emporter,Pierre Duguay,Quotidien
+ORD-0847,2025-08-16,EMP-0003,PRD-0004,4,À emporter,Marguerite Roy-Larouche,Quotidien
+ORD-0848,2025-06-23,EMP-0008,PRD-0003,6,À emporter,Alain Bouchard-Champagne,Quotidien
+ORD-0849,2025-05-28,EMP-0007,PRD-0006,46,Livraison,Amélie Delisle-Pilon,Corporate
+ORD-0850,2025-03-10,EMP-0035,PRD-0004,2,Sur place,Charlotte Thibodeau,Quotidien
+ORD-0851,2025-11-05,EMP-0003,PRD-0003,5,Sur place,Roger Legault-Bisson,Quotidien
+ORD-0852,2025-01-04,EMP-0008,PRD-0006,4,Sur place,Laurent Harvey,Quotidien
+ORD-0853,2025-11-22,EMP-0003,PRD-0003,3,Sur place,Rémy Piché,Quotidien
+ORD-0854,2025-07-22,EMP-0035,PRD-0001,1,À emporter,Guillaume Lemire,Quotidien
+ORD-0855,2025-01-27,EMP-0029,PRD-0006,3,À emporter,Odette Dufresne,Atelier
+ORD-0856,2025-09-08,EMP-0008,PRD-0001,10,Sur place,Vincent Landry,Anniversaire
+ORD-0857,2025-10-16,EMP-0032,PRD-0001,1,Sur place,Thomas Bélisle-Lamoureux,Quotidien
+ORD-0858,2025-03-23,EMP-0034,PRD-0006,6,Sur place,André Houde,Quotidien
+ORD-0859,2025-01-01,EMP-0025,PRD-0001,3,Livraison,Zoé Labelle,Quotidien
+ORD-0860,2025-03-05,EMP-0025,PRD-0003,6,Sur place,Jacqueline-Isabelle Renaud,Quotidien
+ORD-0861,2025-08-17,EMP-0008,PRD-0005,3,Sur place,Claire Mathieu,Quotidien
+ORD-0862,2025-11-07,EMP-0025,PRD-0006,6,Sur place,Danielle-Hortense Dubé,Quotidien
+ORD-0863,2025-03-18,EMP-0007,PRD-0002,4,Livraison,Victor Roy,Quotidien
+ORD-0864,2025-11-09,EMP-0034,PRD-0003,1,Livraison,Guy Charest,Quotidien
+ORD-0865,2025-06-16,EMP-0035,PRD-0005,1,Sur place,Éric Fortier-Tessier,Quotidien
+ORD-0866,2025-05-27,EMP-0035,PRD-0001,4,Sur place,Gabrielle Robitaille-Richer,Quotidien
+ORD-0867,2025-05-13,EMP-0007,PRD-0001,41,Sur place,Margaret-Jessica St-Pierre,Corporate
+ORD-0868,2025-10-21,EMP-0003,PRD-0004,4,Sur place,Jeannine Goulet,Quotidien
+ORD-0869,2025-09-19,EMP-0034,PRD-0005,6,À emporter,Monique Gagné-Asselin,Quotidien
+ORD-0870,2025-06-12,EMP-0034,PRD-0001,6,Sur place,Pierre Gingras,Quotidien
+ORD-0871,2025-06-09,EMP-0035,PRD-0004,6,Sur place,Claudine Lamontagne,Quotidien
+ORD-0872,2025-09-03,EMP-0035,PRD-0006,4,Sur place,Nathan-Lucas Turcotte,Quotidien
+ORD-0873,2025-03-21,EMP-0008,PRD-0006,5,Sur place,Alain Lavigne,Quotidien
+ORD-0874,2025-04-29,EMP-0007,PRD-0001,43,Sur place,Laetitia Thériault,Corporate
+ORD-0875,2025-03-13,EMP-0003,PRD-0006,4,Livraison,Antoine Tremblay,Quotidien
+ORD-0876,2025-10-26,EMP-0029,PRD-0006,1,Sur place,Julien Tanguay,Mariage
+ORD-0877,2025-08-19,EMP-0008,PRD-0004,17,À emporter,Benoît-David Chouinard,Corporate
+ORD-0878,2025-02-03,EMP-0007,PRD-0001,1,À emporter,Samuel Charest,Quotidien
+ORD-0879,2025-04-12,EMP-0035,PRD-0001,4,Sur place,Camille Martineau-Delisle,Quotidien
+ORD-0880,2025-12-21,EMP-0034,PRD-0005,2,À emporter,Gilles Robitaille-Gagnon,Quotidien
+ORD-0881,2025-07-07,EMP-0034,PRD-0005,6,À emporter,Sébastien Auger-Chouinard,Quotidien
+ORD-0882,2025-06-19,EMP-0025,PRD-0004,6,Livraison,Josette Bilodeau-Beauchamp,Quotidien
+ORD-0883,2025-07-20,EMP-0007,PRD-0003,2,Sur place,Élisabeth Drolet,Quotidien
+ORD-0884,2025-10-07,EMP-0003,PRD-0003,1,À emporter,Samuel Lavigne,Anniversaire
+ORD-0885,2025-09-19,EMP-0035,PRD-0004,6,Livraison,Jeanne Ferland-Gingras,Quotidien
+ORD-0886,2025-08-27,EMP-0025,PRD-0004,4,À emporter,Emmanuelle Couture-Guay,Atelier
+ORD-0887,2025-04-23,EMP-0003,PRD-0006,2,Sur place,Émile Guay,Mariage
+ORD-0888,2025-07-07,EMP-0029,PRD-0003,2,À emporter,Élisabeth-Karine Morin,Mariage
+ORD-0889,2025-07-30,EMP-0035,PRD-0006,5,Sur place,Marcelle Grenier,Quotidien
+ORD-0890,2025-03-10,EMP-0003,PRD-0006,1,Sur place,Célina Arsenault,Quotidien
+ORD-0891,2025-09-29,EMP-0025,PRD-0003,4,À emporter,Émilie Leduc,Quotidien
+ORD-0892,2025-05-27,EMP-0032,PRD-0005,3,Livraison,Alain Therrien,Atelier
+ORD-0893,2025-04-16,EMP-0029,PRD-0001,1,Livraison,Élise Gosselin-Trottier,Quotidien
+ORD-0894,2025-03-18,EMP-0008,PRD-0006,5,Sur place,Camille Champagne-Gosselin,Quotidien
+ORD-0895,2025-10-15,EMP-0029,PRD-0005,2,Sur place,Raymond Perron,Quotidien
+ORD-0896,2025-05-07,EMP-0008,PRD-0001,1,À emporter,Céline-Anaïs Marchand,Anniversaire
+ORD-0897,2025-01-21,EMP-0032,PRD-0001,1,Livraison,Gérard Gauthier,Quotidien
+ORD-0898,2025-10-24,EMP-0008,PRD-0004,6,Sur place,Danielle Lemay,Quotidien
+ORD-0899,2025-12-23,EMP-0007,PRD-0002,5,Sur place,Tristan Dallaire,Quotidien
+ORD-0900,2025-03-10,EMP-0035,PRD-0006,4,Sur place,Mathieu Bélanger,Quotidien
+ORD-0901,2025-01-06,EMP-0035,PRD-0002,2,Sur place,Tristan Bédard,Quotidien
+ORD-0902,2025-01-28,EMP-0003,PRD-0002,5,À emporter,Astrid-Andrée Boisvert,Anniversaire
+ORD-0903,2025-07-27,EMP-0025,PRD-0006,3,Sur place,Charlotte Bérubé,Quotidien
+ORD-0904,2025-11-08,EMP-0035,PRD-0003,1,À emporter,Marcel Piché,Quotidien
+ORD-0905,2025-10-13,EMP-0029,PRD-0004,27,Sur place,Célina Giroux,Corporate
+ORD-0906,2025-09-27,EMP-0025,PRD-0002,15,À emporter,Benoît-François Bouchard,Corporate
+ORD-0907,2025-05-15,EMP-0025,PRD-0005,23,Sur place,Guy Giguère,Corporate
+ORD-0908,2025-04-25,EMP-0003,PRD-0003,1,Livraison,David Dufour,Quotidien
+ORD-0909,2025-07-31,EMP-0034,PRD-0003,20,À emporter,Virginie Martel,Corporate
+ORD-0910,2025-07-22,EMP-0003,PRD-0002,5,Livraison,Constance Fournier-Charbonneau,Anniversaire
+ORD-0911,2025-06-12,EMP-0007,PRD-0005,7,À emporter,Philippe Boily,Atelier
+ORD-0912,2025-02-26,EMP-0025,PRD-0005,1,Sur place,Patrick Rivard,Atelier
+ORD-0913,2025-03-17,EMP-0008,PRD-0003,5,Sur place,Maurice Gosselin,Quotidien
+ORD-0914,2025-06-20,EMP-0035,PRD-0005,6,Sur place,Margaret Lapierre,Quotidien
+ORD-0915,2025-09-14,EMP-0034,PRD-0004,1,Livraison,David-Alexandre Nguyen,Quotidien
+ORD-0916,2025-03-29,EMP-0007,PRD-0003,6,Sur place,Pierre Labbé-Guay,Quotidien
+ORD-0917,2025-01-25,EMP-0029,PRD-0004,3,Livraison,Arthur Trépanier,Quotidien
+ORD-0918,2025-06-02,EMP-0008,PRD-0005,6,Sur place,Margaret Audet,Quotidien
+ORD-0919,2025-02-18,EMP-0029,PRD-0002,6,Sur place,René Michaud,Quotidien
+ORD-0920,2025-12-07,EMP-0025,PRD-0003,3,Sur place,Pénélope Delisle,Quotidien
+ORD-0921,2025-04-18,EMP-0025,PRD-0003,5,Sur place,Gérard-Samuel Ouellet,Quotidien
+ORD-0922,2025-11-19,EMP-0003,PRD-0001,19,Livraison,Kevin-Gérard Proulx,Corporate
+ORD-0923,2025-08-02,EMP-0032,PRD-0002,5,Sur place,Émilie Mercier,Quotidien
+ORD-0924,2025-06-06,EMP-0032,PRD-0004,4,Sur place,Laurent-Alexandre Turgeon,Quotidien
+ORD-0925,2025-05-11,EMP-0003,PRD-0005,2,À emporter,Robert Marcoux,Quotidien
+ORD-0926,2025-02-04,EMP-0034,PRD-0002,3,Sur place,Benoît Drouin-Grenier,Quotidien
+ORD-0927,2025-11-12,EMP-0007,PRD-0003,10,Sur place,Pénélope Provencher,Anniversaire
+ORD-0928,2025-04-28,EMP-0007,PRD-0006,4,Sur place,Stéphane Turgeon,Quotidien
+ORD-0929,2025-11-02,EMP-0032,PRD-0004,31,Livraison,Grégoire-Frédéric Létourneau,Corporate
+ORD-0930,2025-07-23,EMP-0029,PRD-0003,3,À emporter,Claude Veilleux,Quotidien
+ORD-0931,2025-05-18,EMP-0003,PRD-0004,35,Sur place,Pierre Dubois,Corporate
+ORD-0932,2025-04-23,EMP-0025,PRD-0002,6,Livraison,Danielle Lepage-Dupont,Quotidien
+ORD-0933,2025-03-16,EMP-0034,PRD-0003,6,Livraison,Sébastien-Noël Gélinas,Quotidien
+ORD-0934,2025-03-03,EMP-0032,PRD-0001,2,Sur place,Camille Vallée,Quotidien
+ORD-0935,2025-06-12,EMP-0025,PRD-0003,8,Sur place,Tristan Rousseau,Anniversaire
+ORD-0936,2025-06-22,EMP-0035,PRD-0005,1,Livraison,Lucy Lapierre,Quotidien
+ORD-0937,2025-06-08,EMP-0035,PRD-0001,6,Sur place,Nathalie Hébert-Fontaine,Quotidien
+ORD-0938,2025-07-29,EMP-0034,PRD-0006,18,À emporter,Émilie Laplante,Corporate
+ORD-0939,2025-03-30,EMP-0034,PRD-0004,5,Livraison,Gabriel-Jérôme Labonté,Quotidien
+ORD-0940,2025-11-18,EMP-0032,PRD-0002,3,Sur place,Gabriel-Jean Ménard,Quotidien
+ORD-0941,2025-12-08,EMP-0035,PRD-0001,1,Sur place,Pierre Bouchard,Atelier
+ORD-0942,2025-10-15,EMP-0007,PRD-0006,6,Livraison,Louise Gravel,Quotidien
+ORD-0943,2025-08-19,EMP-0029,PRD-0005,3,À emporter,Geneviève Lafontaine,Quotidien
+ORD-0944,2025-03-24,EMP-0025,PRD-0004,5,Sur place,Noël Bergeron,Quotidien
+ORD-0945,2025-02-07,EMP-0007,PRD-0001,2,Sur place,Paul Thibault-Martel,Quotidien
+ORD-0946,2025-08-03,EMP-0032,PRD-0003,6,Sur place,Mathieu Racine,Quotidien
+ORD-0947,2025-04-03,EMP-0032,PRD-0002,2,Livraison,Emmanuel Renaud,Quotidien
+ORD-0948,2025-11-06,EMP-0035,PRD-0006,42,Sur place,Gilles Guay,Corporate
+ORD-0949,2025-02-12,EMP-0025,PRD-0003,4,Sur place,Jean Marcoux,Quotidien
+ORD-0950,2025-12-05,EMP-0008,PRD-0005,2,Sur place,Maurice Émond,Quotidien
+ORD-0951,2025-12-15,EMP-0032,PRD-0001,6,Livraison,Margot Prévost,Quotidien
+ORD-0952,2025-08-02,EMP-0008,PRD-0005,3,Livraison,Bertrand Giroux-Trépanier,Quotidien
+ORD-0953,2025-03-11,EMP-0029,PRD-0004,43,Sur place,Aurore Lévesque,Corporate
+ORD-0954,2025-10-15,EMP-0029,PRD-0002,19,À emporter,Guillaume Bélisle-Trudel,Corporate
+ORD-0955,2025-01-01,EMP-0035,PRD-0002,48,Sur place,Édouard Massé,Corporate
+ORD-0956,2025-03-04,EMP-0003,PRD-0006,5,À emporter,Laetitia-Marie Boivin,Quotidien
+ORD-0957,2025-05-29,EMP-0008,PRD-0004,2,Sur place,Noémie-Emmanuelle Guillemette,Anniversaire
+ORD-0958,2025-07-20,EMP-0034,PRD-0001,5,À emporter,Monique Sirois,Anniversaire
+ORD-0959,2025-11-27,EMP-0008,PRD-0005,6,Sur place,Emmanuelle Létourneau,Quotidien
+ORD-0960,2025-11-19,EMP-0034,PRD-0003,29,À emporter,Lucie-Béatrice Parent,Corporate
+ORD-0961,2025-05-03,EMP-0007,PRD-0004,5,Sur place,Rosalie Dumas,Quotidien
+ORD-0962,2025-06-14,EMP-0025,PRD-0002,6,Sur place,Benoît-André Gaudreault,Quotidien
+ORD-0963,2025-06-02,EMP-0032,PRD-0005,5,Livraison,Kevin Lemieux-Provencher,Quotidien
+ORD-0964,2025-07-19,EMP-0008,PRD-0006,6,À emporter,Marc Dallaire-Roberge,Quotidien
+ORD-0965,2025-12-06,EMP-0029,PRD-0003,41,Sur place,Édouard-Maurice Pelletier,Corporate
+ORD-0966,2025-07-18,EMP-0034,PRD-0002,1,À emporter,Isabelle Boisvert,Quotidien
+ORD-0967,2025-12-19,EMP-0003,PRD-0002,2,À emporter,Guy-Théodore Cloutier,Quotidien
+ORD-0968,2025-06-16,EMP-0032,PRD-0006,4,Sur place,Claudine Allard,Quotidien
+ORD-0969,2025-06-05,EMP-0008,PRD-0006,1,Sur place,Camille Larivière,Quotidien
+ORD-0970,2025-12-17,EMP-0034,PRD-0004,2,Sur place,Olivier Fontaine,Anniversaire
+ORD-0971,2025-08-14,EMP-0003,PRD-0003,5,Sur place,Astrid Nguyen,Quotidien
+ORD-0972,2025-04-22,EMP-0025,PRD-0006,31,Sur place,Camille Laliberté,Corporate
+ORD-0973,2025-11-15,EMP-0008,PRD-0006,3,Sur place,Bertrand Therrien,Quotidien
+ORD-0974,2025-03-26,EMP-0003,PRD-0003,36,À emporter,Daniel-Maxime Hébert,Corporate
+ORD-0975,2025-09-07,EMP-0008,PRD-0006,31,Sur place,Dominique Piché,Corporate
+ORD-0976,2025-04-21,EMP-0003,PRD-0005,4,Sur place,Anaïs Guay-Martineau,Quotidien
+ORD-0977,2025-08-01,EMP-0025,PRD-0002,9,Livraison,Susanne Ouellet,Anniversaire
+ORD-0978,2025-04-05,EMP-0007,PRD-0002,8,Sur place,Éric Parent-Fontaine,Anniversaire
+ORD-0979,2025-06-05,EMP-0034,PRD-0005,3,À emporter,Célina Desrosiers-Dufour,Quotidien
+ORD-0980,2025-11-21,EMP-0035,PRD-0004,6,À emporter,Laetitia Lachapelle,Quotidien
+ORD-0981,2025-08-08,EMP-0007,PRD-0002,5,Livraison,Susanne Hébert,Quotidien
+ORD-0982,2025-05-02,EMP-0032,PRD-0003,27,Sur place,Gilles Lacroix,Corporate
+ORD-0983,2025-11-17,EMP-0032,PRD-0002,5,Sur place,Jacqueline-Élodie Béland,Quotidien
+ORD-0984,2025-11-05,EMP-0025,PRD-0006,24,Sur place,Camille Lambert,Corporate
+ORD-0985,2025-02-27,EMP-0032,PRD-0006,5,À emporter,Simone Bernier,Anniversaire
+ORD-0986,2025-01-21,EMP-0003,PRD-0006,1,À emporter,Alice Ménard,Quotidien
+ORD-0987,2025-02-25,EMP-0025,PRD-0004,4,Sur place,Manon Vézina,Quotidien
+ORD-0988,2025-08-12,EMP-0032,PRD-0002,2,Livraison,Pénélope Coulombe,Quotidien
+ORD-0989,2025-01-20,EMP-0003,PRD-0004,5,Livraison,Valérie Michaud,Quotidien
+ORD-0990,2025-04-12,EMP-0035,PRD-0004,6,Sur place,Stéphane Marchand,Quotidien
+ORD-0991,2025-06-11,EMP-0029,PRD-0004,35,Sur place,Alexandre Doucet,Corporate
+ORD-0992,2025-08-16,EMP-0029,PRD-0005,24,Sur place,Pauline Drouin,Corporate
+ORD-0993,2025-09-30,EMP-0003,PRD-0001,3,Sur place,Gabriel Demers,Quotidien
+ORD-0994,2025-06-29,EMP-0003,PRD-0001,2,Sur place,Gilbert Lévesque,Quotidien
+ORD-0995,2025-09-12,EMP-0007,PRD-0004,4,Livraison,Alexis Savoie,Quotidien
+ORD-0996,2025-08-01,EMP-0035,PRD-0003,1,Sur place,Sylvie Proulx,Atelier
+ORD-0997,2025-01-17,EMP-0034,PRD-0006,1,À emporter,Bertrand Benoît,Quotidien
+ORD-0998,2025-06-01,EMP-0007,PRD-0003,6,Livraison,Caroline Paquette,Quotidien
+ORD-0999,2025-01-18,EMP-0007,PRD-0002,2,Sur place,Michèle-Véronique Thibodeau,Atelier
+ORD-1000,2025-06-14,EMP-0035,PRD-0001,6,À emporter,Maxime Lachapelle-Pépin,Quotidien
