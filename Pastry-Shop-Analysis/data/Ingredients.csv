@@ -1,0 +1,21 @@
+IngredientID,IngredientName,IngredientCategory,IngredientUnitOfMeasure,IngredientUnitCost,IngredientPurchasedDate,IngredientSupplier
+ING-0001,Farine tout-usage,Base,kg,"1,2",2024-11-12,Mayrand Alimentation
+ING-0002,Farine de force,Base,kg,"1,45",2024-10-06,Distribution Alimentaire Aubut Inc
+ING-0003,Beurre de baratte,Laitier,kg,"14,5",2024-12-12,Distribution Alimentaire Aubut Inc
+ING-0004,Oeufs de calibre gros,Laitier,Unité (12),"4,25",2024-11-01,Costco
+ING-0005,Sucre blanc granulé,Base,kg,"1,8",2024-12-09,Costco
+ING-0006,Sel de mer,Base,kg,"0,95",2024-11-23,Distribution Alimentaire Aubut Inc
+ING-0007,Levure boulangère,Base,kg,"12,0",2024-10-29,Costco
+ING-0008,Chocolat noir 70 %,Spécialité,kg,"22,0",2024-11-08,Distribution Alimentaire Aubut Inc
+ING-0009,Pâte de Pandan,Spécialité,Unité (pot),"8,5",2024-11-16,Distribution Alimentaire Aubut Inc
+ING-0010,Chair de durian,Spécialité,kg,"35,0",2024-10-11,Costco
+ING-0011,"Lait 3,25 %",Laitier,Litre,"2,1",2024-11-04,Mayrand Alimentation
+ING-0012,Crème 35 %,Laitier,Litre,"5,5",2024-11-17,Distribution Alimentaire Aubut Inc
+ING-0013,Fécule de maïs,Base,kg,"3,25",2024-11-27,Distribution Alimentaire Aubut Inc
+ING-0014,Bleuets frais,Fruits,kg,"9,0",2024-11-08,Costco
+ING-0015,Purée de citrouille,Fruits,kg,"4,5",2024-11-09,Costco
+ING-0016,Mélange d'épices,Spécialité,kg,"18,0",2024-11-28,Costco
+ING-0017,Grains de café Espresso,Boisson,kg,"28,0",2024-11-01,Distribution Alimentaire Aubut Inc
+ING-0018,Levain chef,Base,kg,"0,5",2024-10-15,Distribution Alimentaire Aubut Inc
+ING-0019,Extrait de vanille pur,Spécialité,Litre,"85,0",2024-10-26,Mayrand Alimentation
+ING-0020,Boîte pâtissière,Emballage,Unité,"1,15",2024-11-09,Costco
