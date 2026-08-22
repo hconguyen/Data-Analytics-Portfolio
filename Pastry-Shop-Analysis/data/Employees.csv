@@ -1,0 +1,41 @@
+EmployeeID,EmployeeLastName,EmployeeFirstName,EmployeeGenre,EmployeeDateOfBirth,EmployeeHiringDate,EmployeeDepartment,EmployeeJobPosition,EmployeeContract,EmployeeAnnualSalary,EmployeeHourlyRate,EmployeeEmail
+EMP-0001,Lapointe,Emma,F,1993-12-02,2023-05-01,Admin,Adjoint administratif,Permanent - Temps plein,52181,"25,09",emma.lapointe@patisseriect.ca
+EMP-0002,Durand,Noël,H,2002-06-08,2024-07-31,Production,Chef Pâtissier,Permanent - Temps plein,77438,"37,23",noel.durand@patisseriect.ca
+EMP-0003,Dubois,Chantal,F,1977-09-23,2024-04-17,Boutique,Commis aux ventes,Permanent - Temps plein,35537,"17,09",chantal.dubois@patisseriect.ca
+EMP-0004,Dufresne,Aurore,F,2005-08-09,2024-03-21,Boutique,Gérant de boutique,Permanent - Temps plein,55521,"26,69",aurore.dufresne@patisseriect.ca
+EMP-0005,Dion,Julie,F,1970-10-05,2017-02-01,Admin,Adjoint administratif,Permanent - Temps plein,50898,"24,47",julie.dion@patisseriect.ca
+EMP-0006,Pilon,Robert,H,1996-02-27,2023-01-30,Production,Pâtissier,Permanent - Temps partiel,27155,"13,06",robert.pilon@patisseriect.ca
+EMP-0007,Bertrand,Constance,F,1992-03-10,2025-09-05,Boutique,Commis aux ventes,Permanent - Temps plein,34704,"16,68",constance.bertrand@patisseriect.ca
+EMP-0008,Nadeau,Stéphane,H,1976-08-29,2021-08-06,Boutique,Commis aux ventes,Permanent - Temps partiel,21907,"10,53",stephane.nadeau@patisseriect.ca
+EMP-0009,Laflamme,Christine,F,1998-08-17,2022-10-22,Production,Pâtissier,Permanent - Temps plein,46209,"22,22",christine.laflamme@patisseriect.ca
+EMP-0010,Jacques,Rosalie,F,1978-07-08,2020-08-24,Production,Boulanger-Viennoisier,Permanent - Temps plein,45793,"22,02",rosalie.jacques@patisseriect.ca
+EMP-0011,Morissette,Thomas,H,1990-09-10,2019-05-18,Admin,Livreur,Permanent - Temps plein,34966,"16,81",thomas.morissette@patisseriect.ca
+EMP-0012,Hébert,Guillaume,H,1999-11-30,2022-10-15,Admin,Livreur,Permanent - Temps plein,36334,"17,47",guillaume.hebert@patisseriect.ca
+EMP-0013,Gélinas,Renée,F,1994-04-07,2019-03-08,Production,Aide-Pâtissier,Permanent - Temps plein,37734,"18,14",renee.gelinas@patisseriect.ca
+EMP-0014,Côté,Samuel,H,1975-09-02,2019-07-21,Admin,Adjoint administratif,Temporaire,55730,"26,79",samuel.cote@patisseriect.ca
+EMP-0015,Boucher,Alain,H,1984-07-27,2022-10-31,Admin,Livreur,Permanent - Temps plein,37243,"17,91",alain.boucher@patisseriect.ca
+EMP-0016,Duval,Dorothée,F,2006-09-04,2026-05-20,Admin,Adjoint administratif,Permanent - Temps partiel,30061,"14,45",dorothee.duval@patisseriect.ca
+EMP-0017,Landry,Gabriel,H,1988-03-16,2021-02-22,Boutique,Gérant de boutique,Permanent - Temps plein,58361,"28,06",gabriel.landry@patisseriect.ca
+EMP-0018,Desjardins,Laurie,F,1987-03-29,2016-09-04,Boutique,Gérant de boutique,Permanent - Temps plein,53754,"25,84",laurie.desjardins@patisseriect.ca
+EMP-0019,Paré,Marc,H,2001-11-04,2019-08-19,Boutique,Gérant de boutique,Permanent - Temps plein,51980,"24,99",marc.pare@patisseriect.ca
+EMP-0020,Blais,Martin,H,1984-01-20,2022-01-17,Production,Plongeur,Temporaire,35252,"16,95",martin.blais@patisseriect.ca
+EMP-0021,Lachapelle,Jérôme,H,1973-07-21,2024-03-01,Production,Pâtissier,Permanent - Temps plein,44099,"21,2",jerome.lachapelle@patisseriect.ca
+EMP-0022,Archambault,Rosalie,F,2002-06-19,2021-01-24,Boutique,Gérant de boutique,Permanent - Temps partiel,31905,"15,34",rosalie.archambault@patisseriect.ca
+EMP-0023,Boudreau,Alain,H,1977-06-05,2019-07-03,Admin,Livreur,Permanent - Temps partiel,21342,"10,26",alain.boudreau@patisseriect.ca
+EMP-0024,Lavigne,René,H,1975-11-30,2023-12-29,Production,Pâtissier,Permanent - Temps plein,47990,"23,07",rene.lavigne@patisseriect.ca
+EMP-0025,Provencher,Céline,F,1978-07-07,2020-09-18,Boutique,Commis aux ventes,Permanent - Temps partiel,22420,"10,78",celine.provencher@patisseriect.ca
+EMP-0026,Robert,Olivier,H,2004-11-01,2024-11-24,Boutique,Gérant de boutique,Permanent - Temps partiel,35781,"17,2",olivier.robert@patisseriect.ca
+EMP-0027,Boulanger,Arthur,H,1964-04-13,2024-07-27,Production,Aide-Pâtissier,Permanent - Temps plein,37803,"18,17",arthur.boulanger@patisseriect.ca
+EMP-0028,Bernard,Maryse,F,1997-09-25,2018-01-05,Admin,Livreur,Permanent - Temps plein,35545,"17,09",maryse.bernard@patisseriect.ca
+EMP-0029,Jacques,Manon,F,2000-03-12,2023-09-12,Boutique,Commis aux ventes,Permanent - Temps partiel,20986,"10,09",manon.jacques@patisseriect.ca
+EMP-0030,Audet,Élisabeth,F,1991-01-21,2020-08-01,Production,Pâtissier,Permanent - Temps plein,45679,"21,96",elisabeth.audet@patisseriect.ca
+EMP-0031,Langlois,Nicole,F,1978-12-26,2022-08-27,Boutique,Gérant de boutique,Permanent - Temps plein,52407,"25,2",nicole.langlois@patisseriect.ca
+EMP-0032,Savard,Samuel,H,1988-05-16,2016-12-19,Boutique,Commis aux ventes,Permanent - Temps plein,34187,"16,44",samuel.savard@patisseriect.ca
+EMP-0033,Benoît,Sarah,F,1993-11-12,2020-07-08,Production,Pâtissier,Permanent - Temps plein,42189,"20,28",sarah.benoit@patisseriect.ca
+EMP-0034,Brassard,Laetitia,F,1967-09-23,2025-06-27,Boutique,Commis aux ventes,Permanent - Temps partiel,21296,"10,24",laetitia.brassard@patisseriect.ca
+EMP-0035,Mercier,Grégoire,H,1987-03-02,2016-08-23,Boutique,Commis aux ventes,Permanent - Temps plein,36669,"17,63",gregoire.mercier@patisseriect.ca
+EMP-0036,Durand,Robert,H,1973-11-25,2024-06-08,Production,Chef Pâtissier,Temporaire,76019,"36,55",robert.durand@patisseriect.ca
+EMP-0037,Carrier,Henri,H,1999-04-21,2019-06-16,Production,Chef Pâtissier,Temporaire,67062,"32,24",henri.carrier@patisseriect.ca
+EMP-0038,Paradis,Margot,F,1993-10-11,2017-03-05,Boutique,Gérant de boutique,Permanent - Temps plein,54964,"26,43",margot.paradis@patisseriect.ca
+EMP-0039,Sirois,Maryse,F,2004-03-26,2025-02-21,Boutique,Gérant de boutique,Permanent - Temps plein,56439,"27,13",maryse.sirois@patisseriect.ca
+EMP-0040,Sirois,Hugues,H,1962-10-11,2021-07-03,Production,Boulanger-Viennoisier,Permanent - Temps partiel,25754,"12,38",hugues.sirois@patisseriect.ca
