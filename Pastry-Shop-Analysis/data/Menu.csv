@@ -1,0 +1,7 @@
+ProductID,ProductName,ProductCategory,ProductStyle,ProductSize,CostPerProduct,PricePerProduct,PrepTimeMinutes
+PRD-0001,Croissant,Viennoiserie,Classique,Individuel,"0,8","2,5",12
+PRD-0002,Éclair chocolat,Pâtisserie,Classique,Individuel,"1,2","4,5",8
+PRD-0003,Gâteau au pandan et durian,Pâtisserie,Signature,5-6 pers,"15,0","45,0",25
+PRD-0004,Latté à la citrouille,Boisson,Édition limitée,12 oz,"0,5","4,25",3
+PRD-0005,Muffin aux bleuets,Viennoiserie,Saisonnier,Individuel,"0,9","2,75",4
+PRD-0006,Pain au levain,Boulangerie,Artisanal,500g,"1,15","5,75",15
