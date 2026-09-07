@@ -20,6 +20,18 @@ Power BI dashboards analyzing HR absences and sales performance for Pâtisserie 
 - Built fact and dimension tables for the HR and Sales dashboards.
 
 # Data Model
+- Star schema connecting HR, Sales, Products, Ingredients, Expenses, and Calendar tables.
+- Fact tables:
+  - Sales (transactions, quantities, product IDs, employee IDs)
+  - Absences (absence type, duration, employee IDs)
+- Dimension tables:
+  - Employees (role, department, salary, contract)
+  - Menu (products, categories, pricing)
+  - Ingredients (unit cost, supplier, category)
+  - Recipes (ingredient quantities per product)
+  - Fixed_Expenses (monthly costs by category)
+  - Calendar and Calendar_HR (date intelligence for sales and HR)
+
 # DAX Measures
 # Screenshots
 # Insights
