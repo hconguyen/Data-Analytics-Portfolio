@@ -3,7 +3,7 @@ A curated collection of analytics projects built with Power BI, SQL, and Python.
 Includes HR absence and sales performance dashboards for Pâtisserie CT.
 
 # Overview
-Power BI dashboards analyzing HR absences and sales performance for Pâtisserie CT.
+Power BI dashboards analyzing sales and HR absences performance for Pâtisserie CT.
 
 # Projects Included
 - **Sales Performance Dashboard** – Product profitability and employee sales performance.<br>
