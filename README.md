@@ -84,5 +84,26 @@ Below are selected screenshots from the Sales and HR dashboards, illustrating ke
 - Departments with higher absence rates may require targeted support or resource reallocation.
 
 # Future Improvements
+- Refine expense modeling  
+  - Separate fixed and variable costs (e.g., packaging, delivery fees, utilities) to improve product‑level profitability accuracy.
+
+- Add drill‑through pages  
+  - Create detailed views for employees, products, and sellers to enhance data exploration and allow deeper analysis.
+
+- Expand date intelligence for Sales  
+  - Enrich the Calendar table with Year, Quarter, MonthName, and WeekNum to support more advanced time‑series visuals.
+
+- Improve data validation rules  
+  - Add checks in Power Query for missing IDs, negative quantities, mismatched product references, and invalid absence dates.
+
+- Implement row‑level security (RLS)  
+  - Restrict HR data to HR managers and hide salary fields for general users to simulate real‑world access control.
+
+- Enable automated data refresh  
+  - Store CSVs in OneDrive or SharePoint to allow scheduled refreshes instead of manual file loading.
+
+- Add forecasting visuals  
+  - Use Power BI’s built‑in forecasting to project monthly sales and identify future absence trends.
+
 # Repository Structure
 # Author
