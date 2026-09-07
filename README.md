@@ -1,2 +1,3 @@
 # Data-Analytics-Portfolio
-A curated collection of data analytics projects showcasing BI, Power BI, SQL, and Python skills.
+A curated collection of analytics projects built with Power BI, SQL, and Python.  
+Includes HR absence and sales performance dashboards for Pâtisserie CT.
