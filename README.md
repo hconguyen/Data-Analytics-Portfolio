@@ -106,4 +106,16 @@ Below are selected screenshots from the Sales and HR dashboards, illustrating ke
   - Use Power BI’s built‑in forecasting to project monthly sales and identify future absence trends.
 
 # Repository Structure
+Data-Analytics-Portfolio/
+│
+├── data/               # All source CSV datasets (Absences, Employees, Sales, etc.)
+├── model/              # Power BI data model files or schema references
+├── notebooks/          # Jupyter notebooks used for data generation or exploration
+├── pbix/               # Power BI Desktop project files
+├── screenshots/        # Dashboard screenshots for the README
+├── scripts/            # Python scripts used to generate or clean datasets
+│
+├── LICENSE             # Project license
+└── README.md           # Project documentation
+
 # Author
