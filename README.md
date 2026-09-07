@@ -119,3 +119,6 @@ Data-Analytics-Portfolio/
 └── README.md           # Project documentation
 
 # Author
+**Huy‑Co Nguyen**  
+Aspiring Data/BI Specialist  
+Brossard, QC
