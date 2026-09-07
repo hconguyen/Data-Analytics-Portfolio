@@ -14,7 +14,7 @@ Sales dashboard showing best‑selling products and seller performance relative 
 HR dashboard showing employee absences by role, month, and absence type to highlight workforce availability and operational risks.
 
 # Data Preparation
-A Python script (generate_patisserie_dataset.py) is included to create all source CSV files used in this project, covering HR absences, employee data, product information, recipes, expenses, and sales transactions.
+- A Python script (generate_patisserie_dataset.py) is included to create all source CSV files used in this project, covering HR absences, employee data, product information, recipes, expenses, and sales transactions.
 
 # Data Model
 # DAX Measures
