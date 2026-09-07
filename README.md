@@ -71,6 +71,18 @@ Below are selected screenshots from the Sales and HR dashboards, illustrating ke
 ![HR Dashboard](Pastry-Shop-Analysis/screenshots/dashboard_hr_summary_patisserie_ct.jpg)
 
 # Insights
+## Sales Insights
+- Best‑selling products are concentrated in a few categories, indicating strong customer preference patterns.
+- Seller performance varies significantly, with top sellers contributing a disproportionate share of total revenue.
+- Products with high COGS but low pricing reduce overall profitability, highlighting opportunities for price adjustments.
+- Monthly sales trends reveal peak periods that can guide staffing and inventory planning.
+
+## HR Insights
+- Absences are most frequent in specific roles, suggesting potential workload or scheduling issues.
+- Illness‑related absences represent the largest share, indicating where wellness initiatives could have the most impact.
+- Certain months show spikes in absences, which may correlate with seasonal factors or operational stress periods.
+- Departments with higher absence rates may require targeted support or resource reallocation.
+
 # Future Improvements
 # Repository Structure
 # Author
