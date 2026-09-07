@@ -61,7 +61,7 @@ Below are selected screenshots from the Sales and HR dashboards, illustrating ke
 - Product profitability visuals (COGS, gross margin, net margin).
 - Monthly sales trends and order breakdowns.
 
-![Sales Dashboard](screenshots/dashboard_sales_summary_patisserie_ct.jpg)
+![Sales Dashboard](Pastry-Shop-Analysis/screenshots/dashboard_hr_summary_patisserie_ct.jpg)
 
 ## HR Dashboard
 - Employee absences by role, month, and absence type.
