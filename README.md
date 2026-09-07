@@ -38,6 +38,20 @@ Power BI dashboards analyzing HR absences and sales performance for Pâtisserie 
   - Supports HR absence analytics, product profitability calculations, seller performance evaluation, and cost allocation.
 
 # DAX Measures
+This project uses a set of DAX measures to calculate key HR and Sales metrics, including absence totals, sales performance, cost calculations, and profitability indicators. These measures power the visuals in both dashboards and provide the business logic behind the insights.
+
+- **Total Absence Days** – sums all absence durations
+- **Employees Impacted** – counts distinct employees with at least one absence
+- **Absences by Type** – calculates totals for illness, personal leave, and work accidents
+
+- **Total Sales** – sums all product sales
+- **Total_COGS** – ingredient and recipe costs
+- **Total_Fixed_Expenses** – monthly fixed costs
+- **Gross_Margin** – Sales minus COGS
+- **Gross_Margin_Percent** – Gross Margin divided by Sales
+- **Net_Profit** – Sales minus COGS minus Fixed Expenses
+- **Net_Margin_Percent** – Net Profit divided by Sales
+
 # Screenshots
 # Insights
 # Future Improvements
