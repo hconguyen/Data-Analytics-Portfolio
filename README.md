@@ -31,6 +31,11 @@ Power BI dashboards analyzing HR absences and sales performance for Pâtisserie 
   - Recipes (ingredient quantities per product).
   - Fixed_Expenses (monthly costs by category).
   - Calendar and Calendar_HR (date intelligence for sales and HR).
+- **Relationships:**
+  - One‑to‑many links between dimensions and facts (e.g., Employees → Sales, Employees → Absences, Menu → Sales, Ingredients → Recipes)
+  - Calendar tables connected to Sales and Absences for time‑based analysis
+- **Purpose:**
+  - Supports HR absence analytics, product profitability calculations, seller performance evaluation, and cost allocation.
 
 # DAX Measures
 # Screenshots
