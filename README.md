@@ -14,7 +14,7 @@ Power BI dashboards analyzing HR absences and sales performance for Pâtisserie 
 - HR dashboard showing employee absences by role, month, and absence type to highlight workforce availability and operational risks.
 
 # Data Preparation
-- Generated all source CSV datasets using a Python script (Absences, Employees, Fixed Expenses, Ingredients, Menu, Recipes, Sales).
+- Generated all source CSV datasets using a Python script (Absences, Employees, Fixed Expenses, Ingredients, Menu, Recipes, Sales). ![Sales Dashboard]
 - Loaded the CSV files into Power BI Desktop.
 - Performed ETL in Power Query (cleaning, standardizing dates, removing duplicates, shaping tables).
 - Built fact and dimension tables for the HR and Sales dashboards.
