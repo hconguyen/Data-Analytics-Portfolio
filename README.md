@@ -53,6 +53,22 @@ This project uses a set of DAX measures to calculate key Sales and HR metrics, i
 - **Net_Margin_Percent** – Net Profit divided by Sales.
 
 # Screenshots
+Below are selected screenshots from the Sales and HR dashboards, illustrating key visuals, metrics, and insights produced in Power BI.
+
+## Sales Dashboard
+- Best‑selling products and category performance.
+- Seller performance relative to total sales, costs, and net profit.
+- Product profitability visuals (COGS, gross margin, net margin).
+- Monthly sales trends and order breakdowns.
+
+![Sales Dashboard](screenshots/sales_dashboard.png)
+
+## HR Dashboard
+- Employee absences by role, month, and absence type.
+- Total absence days and employees impacted.
+- Absence patterns across departments and time periods.
+
+
 # Insights
 # Future Improvements
 # Repository Structure
