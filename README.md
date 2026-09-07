@@ -122,3 +122,5 @@ Data-Analytics-Portfolio/
 **Huy‑Co Nguyen**  
 Aspiring Data/BI Specialist  
 Brossard, QC
+
+I'm continuously improving this project as time allows. Future enhancements listed above are possibilities rather than commitments — I'll expand the dashboards and data model when it makes sense.
