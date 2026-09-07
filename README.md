@@ -6,8 +6,8 @@ Includes HR absence and sales performance dashboards for Pâtisserie CT.
 Power BI dashboards analyzing HR absences and sales performance for Pâtisserie CT.
 
 # Projects Included
-HR Absence Dashboard – Employee absences by role, month, and type.<br>
-Sales Performance Dashboard – Product profitability and employee sales performance.
+Sales Performance Dashboard – Product profitability and employee sales performance.<br>
+HR Absence Dashboard – Employee absences by role, month, and type.
 
 # Objectives
 Sales dashboard showing best‑selling products and seller performance relative to total sales, costs, and net profit.<br>
