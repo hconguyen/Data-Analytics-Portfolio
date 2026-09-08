@@ -124,4 +124,4 @@ Data-Analytics-Portfolio/
 Aspiring Data/BI Specialist  
 Brossard, QC
 
-I'm continuously improving this project as time allows. Future enhancements listed above are possibilities rather than commitments — I'll expand the dashboards and data model when it makes sense.
+This project was created as part of my ongoing development in data analytics and business intelligence. It may evolve over time as I refine my BI skills, improve my data modeling and DAX techniques, and explore new approaches to dashboard design.
