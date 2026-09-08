@@ -40,7 +40,7 @@ Power BI dashboards analyzing sales and HR absences performance for Pâtisserie 
 ![Data Model](Pastry-Shop-Analysis/model/data_model.jpg)
 
 # DAX Measures
-This project uses a set of DAX measures to calculate key Sales and HR metrics, including absence totals, sales performance, cost calculations, and profitability indicators. These measures power the visuals in both dashboards and provide the business logic behind the insights.
+This project uses DAX measures to calculate key Sales and HR metrics, from absence totals to profitability. These measures drive the visuals and form the business logic behind the insights.
 
 - **Total Absence Days** – sums all absence durations.
 - **Employees Impacted** – counts distinct employees with at least one absence.
