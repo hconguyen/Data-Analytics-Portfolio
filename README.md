@@ -17,7 +17,7 @@ Power BI dashboards analyzing sales and HR absences performance for Pâtisserie 
 - Generated all source CSV datasets using a Python script (Absences, Employees, Fixed Expenses, Ingredients, Menu, Recipes, Sales). ![generate_patisserie_dataset.py](Pastry-Shop-Analysis/scripts/generate_patisserie_dataset.py)
 - Loaded the CSV files into Power BI Desktop.
 - Performed ETL in Power Query (cleaning, standardizing dates, removing duplicates, shaping tables).
-- Built fact and dimension tables for the HR and Sales dashboards.
+- Built fact and dimension tables for the Sales and HR dashboards.
 
 # Data Model
 - Star schema connecting HR, Sales, Products, Ingredients, Expenses, and Calendar tables.
