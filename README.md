@@ -112,7 +112,6 @@ Data-Analytics-Portfolio/
 │
 ├── data/               # Source CSV datasets (Absences, Employees, Sales, etc.)
 ├── model/              # Power BI data model files or schema references
-├── notebooks/          # Jupyter notebooks for data generation or exploration
 ├── pbix/               # Power BI Desktop project files
 ├── screenshots/        # Dashboard screenshots used in the README
 ├── scripts/            # Python scripts for dataset creation or cleaning
