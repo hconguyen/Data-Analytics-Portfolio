@@ -106,7 +106,7 @@ STAFF = [
     ("Lucie", "Bouchard", "Serveuse/Barista", 16.75)
 ]
 
-# Configuration : (Catégorie, Nom, Montant de base)
+# Données de dépense : (Catégorie, Nom, Montant de base)
 FIXED_EXPENSES = [
     ("Occupation", "Loyer Local Brossard", 2500.00),
     ("Occupation", "Taxes Municipales", 300.00),
