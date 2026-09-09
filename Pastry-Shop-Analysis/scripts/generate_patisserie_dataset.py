@@ -76,6 +76,7 @@ INGREDIENTS = {
     "Boîte pâtissière": ["Emballage", "Unité", 1.15],
 }
 
+# Données de recette [Produit: Ingrédient, Quantité]
 RECIPES = {
     # PRD-0001 : Croissant (Beurre, Farine force, Levure, Sel, Œufs)
     "PRD-0001": [("ING-0002", 0.110), ("ING-0003", 0.060), ("ING-0007", 0.005), ("ING-0006", 0.002), ("ING-0004", 0.010)],
